@@ -1,0 +1,6 @@
+{
+  "name": "Control Vehicular - Registro y Reportes",
+  "description": "Procesador automático con IA de capturas de WhatsApp para control vehicular, cálculo de horas laboradas y reporte semanal en Excel.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
