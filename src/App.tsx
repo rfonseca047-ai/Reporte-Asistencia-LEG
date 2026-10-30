@@ -24,13 +24,27 @@ import {
 } from 'lucide-react';
 
 export default function App() {
-  // Load saved records from localStorage if present, else use INITIAL_VEHICLE_RECORDS (ordenados de mayor a menor: 44, 43, 42 a 23)
+  // Ensure the browser tab title is ALWAYS "CONTROL DE ASISTENCIA GRANT´S"
+  useEffect(() => {
+    document.title = 'CONTROL DE ASISTENCIA GRANT´S';
+  }, []);
+
+  // Load saved records from localStorage as immediate cache, checking all keys to preserve user data
   const [records, setRecords] = useState<VehicleRecord[]>(() => {
     try {
-      const saved = localStorage.getItem('control_asistencia_grants_records_v4');
-      if (saved) {
-        const parsed = JSON.parse(saved);
-        if (Array.isArray(parsed) && parsed.length > 0) return parsed;
+      const keys = [
+        'control_asistencia_grants_records_v4',
+        'control_asistencia_grants_records_v3',
+        'control_asistencia_grants_records_v2',
+        'control_asistencia_grants_records',
+        'control_vehicular_records',
+      ];
+      for (const k of keys) {
+        const saved = localStorage.getItem(k);
+        if (saved) {
+          const parsed = JSON.parse(saved);
+          if (Array.isArray(parsed) && parsed.length > 0) return parsed;
+        }
       }
     } catch (e) {
       console.error('Error reading localStorage', e);
@@ -56,12 +70,45 @@ export default function App() {
   const [copied, setCopied] = useState(false);
   const [toast, setToast] = useState<{ message: string; type: 'success' | 'info' | 'error' } | null>(null);
 
-  // Sync to localStorage
+  // On mount: Fetch latest persistent records from backend database
+  useEffect(() => {
+    let isMounted = true;
+    fetch('/api/records')
+      .then((res) => res.json())
+      .then((data) => {
+        if (isMounted && data.success && Array.isArray(data.records) && data.records.length > 0) {
+          setRecords(data.records);
+          try {
+            localStorage.setItem('control_asistencia_grants_records_v4', JSON.stringify(data.records));
+          } catch (e) {}
+        }
+      })
+      .catch((err) => {
+        console.warn('Backend database not reachable yet, using local cache:', err);
+      });
+
+    return () => {
+      isMounted = false;
+    };
+  }, []);
+
+  // Sync records to BOTH localStorage AND persistent server database
   useEffect(() => {
     try {
       localStorage.setItem('control_asistencia_grants_records_v4', JSON.stringify(records));
     } catch (e) {
       console.error('Error writing to localStorage', e);
+    }
+
+    // Persist to server backend
+    if (records.length > 0) {
+      fetch('/api/records', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ records }),
+      }).catch((err) => {
+        console.error('Failed to sync records to server database:', err);
+      });
     }
   }, [records]);
 

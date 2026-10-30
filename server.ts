@@ -1,6 +1,7 @@
 import express, { type Request, type Response } from 'express';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import fs from 'fs';
 import dotenv from 'dotenv';
 import { GoogleGenAI, Type } from '@google/genai';
 
@@ -15,6 +16,39 @@ const PORT = process.env.PORT ? parseInt(process.env.PORT, 10) : 3000;
 // Middleware for large payload (multiple screenshots in base64)
 app.use(express.json({ limit: '50mb' }));
 app.use(express.urlencoded({ extended: true, limit: '50mb' }));
+
+// Persistent Storage File for Attendance Records
+const DATA_DIR = path.resolve(__dirname, 'data');
+const DATA_FILE = path.resolve(DATA_DIR, 'attendance_database.json');
+
+if (!fs.existsSync(DATA_DIR)) {
+  fs.mkdirSync(DATA_DIR, { recursive: true });
+}
+
+function getStoredRecords(): any[] {
+  try {
+    if (fs.existsSync(DATA_FILE)) {
+      const content = fs.readFileSync(DATA_FILE, 'utf8');
+      const parsed = JSON.parse(content);
+      if (Array.isArray(parsed) && parsed.length > 0) {
+        return parsed;
+      }
+    }
+  } catch (err) {
+    console.error('Error reading DATA_FILE:', err);
+  }
+  return [];
+}
+
+function saveStoredRecords(records: any[]): boolean {
+  try {
+    fs.writeFileSync(DATA_FILE, JSON.stringify(records, null, 2), 'utf8');
+    return true;
+  } catch (err) {
+    console.error('Error writing DATA_FILE:', err);
+    return false;
+  }
+}
 
 // Initialize Google GenAI
 const apiKey = process.env.GEMINI_API_KEY || '';
@@ -38,6 +72,26 @@ app.get('/api/health', (_req: Request, res: Response) => {
     hasApiKey: Boolean(apiKey),
     timestamp: new Date().toISOString(),
   });
+});
+
+// GET /api/records - Retrieve all saved attendance records
+app.get('/api/records', (_req: Request, res: Response) => {
+  const records = getStoredRecords();
+  res.json({ success: true, count: records.length, records });
+});
+
+// POST /api/records - Persistently save records to database
+app.post('/api/records', (req: Request, res: Response) => {
+  const { records } = req.body;
+  if (!Array.isArray(records)) {
+    return res.status(400).json({ error: 'records must be an array' });
+  }
+  const ok = saveStoredRecords(records);
+  if (ok) {
+    return res.json({ success: true, count: records.length });
+  } else {
+    return res.status(500).json({ error: 'Failed to write records to disk' });
+  }
 });
 
 interface ImagePayload {
