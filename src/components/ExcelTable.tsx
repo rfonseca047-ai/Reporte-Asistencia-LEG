@@ -10,6 +10,7 @@ import {
   Check,
   Sparkles,
   ArrowUpDown,
+  UserX,
 } from 'lucide-react';
 
 interface ExcelTableProps {
@@ -17,6 +18,7 @@ interface ExcelTableProps {
   onEditRecord: (record: VehicleRecord) => void;
   onDeleteRecord: (id: string) => void;
   onAddNewRecord: () => void;
+  onOpenAbsence?: () => void;
   onQuickResolve: (record: VehicleRecord) => void;
   selectedWeek: number | 'all';
   setSelectedWeek: (week: number | 'all') => void;
@@ -35,6 +37,7 @@ export const ExcelTable: React.FC<ExcelTableProps> = ({
   onEditRecord,
   onDeleteRecord,
   onAddNewRecord,
+  onOpenAbsence,
   onQuickResolve,
   selectedWeek,
   setSelectedWeek,
@@ -198,6 +201,18 @@ export const ExcelTable: React.FC<ExcelTableProps> = ({
             <CalendarCheck className="w-3.5 h-3.5 text-slate-600" />
             <span className="hidden xl:inline">Rellenar plantilla semanal</span>
           </button>
+
+          {/* Button Marcar Ausente (00) */}
+          {onOpenAbsence && (
+            <button
+              onClick={onOpenAbsence}
+              className="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-bold rounded-lg text-amber-900 bg-amber-100 hover:bg-amber-200 border border-amber-300 shadow-xs transition-colors"
+              title="Marcar fecha como ausente para Enrique, Luis o ambos con 0,00 horas"
+            >
+              <UserX className="w-3.5 h-3.5 text-amber-700" />
+              <span>Marcar Ausente (00)</span>
+            </button>
+          )}
 
           {/* Add Manual Row */}
           <button

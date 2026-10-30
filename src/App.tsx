@@ -7,7 +7,9 @@ import { ExcelTable } from './components/ExcelTable';
 import { UploadModal } from './components/UploadModal';
 import { RecordModal } from './components/RecordModal';
 import { ReferenceViewer } from './components/ReferenceViewer';
+import { AbsenceModal } from './components/AbsenceModal';
 import { exportToXLSX, exportToCSV, copyForGoogleSheets, generateWeeklyFill } from './utils/excelExporter';
+import { getWeekNumber, getSpanishDay } from './utils/dateUtils';
 import {
   FileSpreadsheet,
   Upload,
@@ -44,6 +46,7 @@ export default function App() {
 
   // Modals state
   const [isUploadOpen, setIsUploadOpen] = useState(false);
+  const [isAbsenceOpen, setIsAbsenceOpen] = useState(false);
   const [isReferenceOpen, setIsReferenceOpen] = useState(false);
   const [isRecordModalOpen, setIsRecordModalOpen] = useState(false);
   const [recordModalMode, setRecordModalMode] = useState<'add' | 'edit' | 'resolve'>('add');
@@ -132,6 +135,68 @@ export default function App() {
       setRecords((prev) => [...prev, ...newRecords]);
       showToast(`Se agregaron ${newRecords.length} nuevos registros al Excel`, 'success');
     }
+  };
+
+  const handleMarkAbsence = ({
+    employees,
+    dateStr,
+    predio,
+    observacion,
+  }: {
+    employees: DriverName[];
+    dateStr: string;
+    predio: string;
+    observacion: string;
+  }) => {
+    const [y, m, d] = dateStr.split('-').map(Number);
+    const dateObj = new Date(y, m - 1, d, 0, 0, 0);
+    const week = getWeekNumber(dateObj);
+    const dayName = getSpanishDay(dateObj);
+    const dateTimeStr = `${d}/${m}/${y} 00:00`;
+    const dateMatchPrefix = `${d}/${m}/${y}`;
+
+    setRecords((prev) => {
+      const updated = [...prev];
+
+      employees.forEach((emp) => {
+        // Look for existing record for this employee on this exact date
+        const existingIndex = updated.findIndex((r) => {
+          if (r.nombre !== emp) return false;
+          const entryDateOnly = r.fechaIngreso.split(' ')[0];
+          return entryDateOnly === dateMatchPrefix;
+        });
+
+        if (existingIndex >= 0) {
+          updated[existingIndex] = {
+            ...updated[existingIndex],
+            fechaIngreso: dateTimeStr,
+            fechaSalida: dateTimeStr,
+            horas: 0,
+            predio,
+            observaciones: observacion,
+          };
+        } else {
+          const newRecord: VehicleRecord = {
+            id: `rec-abs-${Date.now()}-${Math.random().toString(36).substr(2, 4)}`,
+            semana: week,
+            dia: dayName,
+            predio,
+            fechaIngreso: dateTimeStr,
+            fechaSalida: dateTimeStr,
+            nombre: emp,
+            horas: 0,
+            observaciones: observacion,
+          };
+          updated.unshift(newRecord);
+        }
+      });
+
+      return updated;
+    });
+
+    setSelectedWeek(week);
+    const names = employees.length === 2 ? 'Enrique Grant y Luis E. Grant' : employees[0];
+    showToast(`Ausencia registrada para ${names} el ${d}/${m}/${y} (00:00 - 0,00 hrs)`, 'success');
   };
 
   const handleExportXLSX = () => {
@@ -230,6 +295,7 @@ export default function App() {
       {/* Navigation Header - EN EL ENCABEZADO SOLO EL TITULO */}
       <Navbar
         onOpenUpload={() => setIsUploadOpen(true)}
+        onOpenAbsence={() => setIsAbsenceOpen(true)}
         onExportXLSX={handleExportXLSX}
         onCopyShareLink={handleCopyShareLink}
         onCopyGoogleSheets={handleCopyGoogleSheets}
@@ -254,6 +320,7 @@ export default function App() {
           onEditRecord={handleEditRecord}
           onDeleteRecord={handleDeleteRecord}
           onAddNewRecord={handleAddNewRecord}
+          onOpenAbsence={() => setIsAbsenceOpen(true)}
           onQuickResolve={handleQuickResolve}
           selectedWeek={selectedWeek}
           setSelectedWeek={setSelectedWeek}
@@ -273,6 +340,12 @@ export default function App() {
         isOpen={isUploadOpen}
         onClose={() => setIsUploadOpen(false)}
         onAddRecords={handleAddRecordsFromOCR}
+      />
+
+      <AbsenceModal
+        isOpen={isAbsenceOpen}
+        onClose={() => setIsAbsenceOpen(false)}
+        onMarkAbsence={handleMarkAbsence}
       />
 
       <RecordModal

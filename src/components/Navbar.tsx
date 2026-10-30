@@ -1,4 +1,3 @@
-import React from 'react';
 import {
   FileSpreadsheet,
   Upload,
@@ -6,10 +5,12 @@ import {
   Check,
   Link,
   UserCheck,
+  UserX,
 } from 'lucide-react';
 
 interface NavbarProps {
   onOpenUpload: () => void;
+  onOpenAbsence: () => void;
   onExportXLSX: () => void;
   onCopyShareLink: () => void;
   onCopyGoogleSheets: () => void;
@@ -19,6 +20,7 @@ interface NavbarProps {
 
 export const Navbar: React.FC<NavbarProps> = ({
   onOpenUpload,
+  onOpenAbsence,
   onExportXLSX,
   onCopyShareLink,
   onCopyGoogleSheets,
@@ -87,6 +89,16 @@ export const Navbar: React.FC<NavbarProps> = ({
                   <span className="hidden xl:inline">Google Sheets</span>
                 </>
               )}
+            </button>
+
+            {/* Botón Marcar Ausente (00) */}
+            <button
+              onClick={onOpenAbsence}
+              className="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-bold rounded-lg text-amber-200 bg-amber-950/60 hover:bg-amber-900/80 border border-amber-600/60 shadow-xs transition-colors"
+              title="Marcar fecha como ausente para Enrique, Luis o ambos (00:00 - 00:00 y 0,00 hrs)"
+            >
+              <UserX className="w-4 h-4 text-amber-400" />
+              <span className="hidden sm:inline">Marcar Ausente (00)</span>
             </button>
 
             {/* ÚNICO Botón de Subir Fotos */}
