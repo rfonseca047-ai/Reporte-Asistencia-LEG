@@ -11,6 +11,7 @@ import {
   Sparkles,
   ArrowUpDown,
   UserX,
+  PlusCircle,
 } from 'lucide-react';
 
 interface ExcelTableProps {
@@ -18,6 +19,7 @@ interface ExcelTableProps {
   onEditRecord: (record: VehicleRecord) => void;
   onDeleteRecord: (id: string) => void;
   onAddNewRecord: () => void;
+  onAddDayMovement?: (record: VehicleRecord) => void;
   onOpenAbsence?: () => void;
   onQuickResolve: (record: VehicleRecord) => void;
   selectedWeek: number | 'all';
@@ -37,6 +39,7 @@ export const ExcelTable: React.FC<ExcelTableProps> = ({
   onEditRecord,
   onDeleteRecord,
   onAddNewRecord,
+  onAddDayMovement,
   onOpenAbsence,
   onQuickResolve,
   selectedWeek,
@@ -390,6 +393,15 @@ export const ExcelTable: React.FC<ExcelTableProps> = ({
                     {/* ACCIONES */}
                     <td className="py-2 px-2 border border-slate-300 text-center">
                       <div className="inline-flex items-center gap-1">
+                        {onAddDayMovement && (
+                          <button
+                            onClick={() => onAddDayMovement(record)}
+                            className="p-1 text-emerald-700 hover:text-emerald-950 hover:bg-emerald-100 rounded transition-colors"
+                            title="Añadir otra línea / entrada a este mismo día para este empleado (ej. visita a otro predio)"
+                          >
+                            <PlusCircle className="w-3.5 h-3.5" />
+                          </button>
+                        )}
                         <button
                           onClick={() => onEditRecord(record)}
                           className="p-1 text-slate-500 hover:text-slate-800 hover:bg-slate-200 rounded transition-colors"

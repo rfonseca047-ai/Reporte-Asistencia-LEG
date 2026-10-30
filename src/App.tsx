@@ -94,6 +94,31 @@ export default function App() {
     setIsRecordModalOpen(true);
   };
 
+  const handleAddDayMovement = (baseRecord: VehicleRecord) => {
+    const dateOnly = baseRecord.fechaIngreso.split(' ')[0] || '29/10/2026';
+    const nextPredio =
+      baseRecord.predio === 'Predio 1'
+        ? 'Predio 2'
+        : baseRecord.predio === 'Predio 2'
+        ? 'Predio 3'
+        : 'Predio 1';
+
+    const templateRecord: VehicleRecord = {
+      id: '', // Empty ID ensures it creates a new line/row for this day
+      semana: baseRecord.semana,
+      dia: baseRecord.dia,
+      predio: nextPredio,
+      fechaIngreso: `${dateOnly} 13:30`,
+      fechaSalida: `${dateOnly} 17:00`,
+      nombre: baseRecord.nombre,
+      horas: 3.5,
+      observaciones: '',
+    };
+    setEditingRecord(templateRecord);
+    setRecordModalMode('add');
+    setIsRecordModalOpen(true);
+  };
+
   const handleEditRecord = (rec: VehicleRecord) => {
     setEditingRecord(rec);
     setRecordModalMode('edit');
@@ -113,7 +138,7 @@ export default function App() {
     }
   };
 
-  const handleSaveRecord = (savedRecord: VehicleRecord) => {
+  const handleSaveRecord = (savedRecord: VehicleRecord, keepOpenForNext?: boolean) => {
     setRecords((prev) => {
       const index = prev.findIndex((r) => r.id === savedRecord.id);
       if (index >= 0) {
@@ -124,7 +149,12 @@ export default function App() {
         return [savedRecord, ...prev];
       }
     });
-    showToast('Registro guardado correctamente', 'success');
+
+    if (keepOpenForNext) {
+      showToast('Entrada guardada. Puedes ingresar la siguiente línea para este mismo día.', 'success');
+    } else {
+      showToast('Registro guardado correctamente', 'success');
+    }
   };
 
   const handleAddRecordsFromOCR = (newRecords: VehicleRecord[], replaceAll: boolean) => {
@@ -320,6 +350,7 @@ export default function App() {
           onEditRecord={handleEditRecord}
           onDeleteRecord={handleDeleteRecord}
           onAddNewRecord={handleAddNewRecord}
+          onAddDayMovement={handleAddDayMovement}
           onOpenAbsence={() => setIsAbsenceOpen(true)}
           onQuickResolve={handleQuickResolve}
           selectedWeek={selectedWeek}
