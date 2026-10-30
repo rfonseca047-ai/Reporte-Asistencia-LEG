@@ -11,17 +11,6 @@
     "observaciones": "LIBRE"
   },
   {
-    "id": "rec-w44-LUIS-0",
-    "semana": 44,
-    "dia": "domingo",
-    "predio": "Predio 3",
-    "fechaIngreso": "25/10/2026 00:00",
-    "fechaSalida": "25/10/2026 00:00",
-    "nombre": "LUIS E. GRANT",
-    "horas": 0,
-    "observaciones": "LIBRE"
-  },
-  {
     "id": "rec-w44-ENRIQUE-1",
     "semana": 44,
     "dia": "lunes",
@@ -29,17 +18,6 @@
     "fechaIngreso": "26/10/2026 00:00",
     "fechaSalida": "26/10/2026 00:00",
     "nombre": "ENRIQUE GRANT",
-    "horas": 0,
-    "observaciones": "NO HAY DATOS"
-  },
-  {
-    "id": "rec-w44-LUIS-1",
-    "semana": 44,
-    "dia": "lunes",
-    "predio": "Predio 3",
-    "fechaIngreso": "26/10/2026 00:00",
-    "fechaSalida": "26/10/2026 00:00",
-    "nombre": "LUIS E. GRANT",
     "horas": 0,
     "observaciones": "NO HAY DATOS"
   },
@@ -55,17 +33,6 @@
     "observaciones": "NO HAY DATOS"
   },
   {
-    "id": "rec-w44-LUIS-2",
-    "semana": 44,
-    "dia": "martes",
-    "predio": "Predio 3",
-    "fechaIngreso": "27/10/2026 00:00",
-    "fechaSalida": "27/10/2026 00:00",
-    "nombre": "LUIS E. GRANT",
-    "horas": 0,
-    "observaciones": "NO HAY DATOS"
-  },
-  {
     "id": "rec-w44-ENRIQUE-3",
     "semana": 44,
     "dia": "miércoles",
@@ -73,17 +40,6 @@
     "fechaIngreso": "28/10/2026 00:00",
     "fechaSalida": "28/10/2026 00:00",
     "nombre": "ENRIQUE GRANT",
-    "horas": 0,
-    "observaciones": "NO HAY DATOS"
-  },
-  {
-    "id": "rec-w44-LUIS-3",
-    "semana": 44,
-    "dia": "miércoles",
-    "predio": "Predio 3",
-    "fechaIngreso": "28/10/2026 00:00",
-    "fechaSalida": "28/10/2026 00:00",
-    "nombre": "LUIS E. GRANT",
     "horas": 0,
     "observaciones": "NO HAY DATOS"
   },
@@ -99,17 +55,6 @@
     "observaciones": "NO HAY DATOS"
   },
   {
-    "id": "rec-w44-LUIS-4",
-    "semana": 44,
-    "dia": "jueves",
-    "predio": "Predio 3",
-    "fechaIngreso": "29/10/2026 00:00",
-    "fechaSalida": "29/10/2026 00:00",
-    "nombre": "LUIS E. GRANT",
-    "horas": 0,
-    "observaciones": "NO HAY DATOS"
-  },
-  {
     "id": "rec-w44-ENRIQUE-5",
     "semana": 44,
     "dia": "viernes",
@@ -121,17 +66,6 @@
     "observaciones": "NO HAY DATOS"
   },
   {
-    "id": "rec-w44-LUIS-5",
-    "semana": 44,
-    "dia": "viernes",
-    "predio": "Predio 3",
-    "fechaIngreso": "30/10/2026 00:00",
-    "fechaSalida": "30/10/2026 00:00",
-    "nombre": "LUIS E. GRANT",
-    "horas": 0,
-    "observaciones": "NO HAY DATOS"
-  },
-  {
     "id": "rec-w44-ENRIQUE-6",
     "semana": 44,
     "dia": "sábado",
@@ -139,6 +73,72 @@
     "fechaIngreso": "31/10/2026 00:00",
     "fechaSalida": "31/10/2026 00:00",
     "nombre": "ENRIQUE GRANT",
+    "horas": 0,
+    "observaciones": "NO HAY DATOS"
+  },
+  {
+    "id": "rec-w44-LUIS-0",
+    "semana": 44,
+    "dia": "domingo",
+    "predio": "Predio 3",
+    "fechaIngreso": "25/10/2026 00:00",
+    "fechaSalida": "25/10/2026 00:00",
+    "nombre": "LUIS E. GRANT",
+    "horas": 0,
+    "observaciones": "LIBRE"
+  },
+  {
+    "id": "rec-w44-LUIS-1",
+    "semana": 44,
+    "dia": "lunes",
+    "predio": "Predio 3",
+    "fechaIngreso": "26/10/2026 00:00",
+    "fechaSalida": "26/10/2026 00:00",
+    "nombre": "LUIS E. GRANT",
+    "horas": 0,
+    "observaciones": "NO HAY DATOS"
+  },
+  {
+    "id": "rec-w44-LUIS-2",
+    "semana": 44,
+    "dia": "martes",
+    "predio": "Predio 3",
+    "fechaIngreso": "27/10/2026 00:00",
+    "fechaSalida": "27/10/2026 00:00",
+    "nombre": "LUIS E. GRANT",
+    "horas": 0,
+    "observaciones": "NO HAY DATOS"
+  },
+  {
+    "id": "rec-w44-LUIS-3",
+    "semana": 44,
+    "dia": "miércoles",
+    "predio": "Predio 3",
+    "fechaIngreso": "28/10/2026 00:00",
+    "fechaSalida": "28/10/2026 00:00",
+    "nombre": "LUIS E. GRANT",
+    "horas": 0,
+    "observaciones": "NO HAY DATOS"
+  },
+  {
+    "id": "rec-w44-LUIS-4",
+    "semana": 44,
+    "dia": "jueves",
+    "predio": "Predio 3",
+    "fechaIngreso": "29/10/2026 00:00",
+    "fechaSalida": "29/10/2026 00:00",
+    "nombre": "LUIS E. GRANT",
+    "horas": 0,
+    "observaciones": "NO HAY DATOS"
+  },
+  {
+    "id": "rec-w44-LUIS-5",
+    "semana": 44,
+    "dia": "viernes",
+    "predio": "Predio 3",
+    "fechaIngreso": "30/10/2026 00:00",
+    "fechaSalida": "30/10/2026 00:00",
+    "nombre": "LUIS E. GRANT",
     "horas": 0,
     "observaciones": "NO HAY DATOS"
   },
@@ -165,17 +165,6 @@
     "observaciones": "LIBRE"
   },
   {
-    "id": "rec-w43-LUIS-0",
-    "semana": 43,
-    "dia": "domingo",
-    "predio": "Predio 3",
-    "fechaIngreso": "18/10/2026 00:00",
-    "fechaSalida": "18/10/2026 00:00",
-    "nombre": "LUIS E. GRANT",
-    "horas": 0,
-    "observaciones": "LIBRE"
-  },
-  {
     "id": "rec-w43-ENRIQUE-1",
     "semana": 43,
     "dia": "lunes",
@@ -183,17 +172,6 @@
     "fechaIngreso": "19/10/2026 00:00",
     "fechaSalida": "19/10/2026 00:00",
     "nombre": "ENRIQUE GRANT",
-    "horas": 0,
-    "observaciones": "NO HAY DATOS"
-  },
-  {
-    "id": "rec-w43-LUIS-1",
-    "semana": 43,
-    "dia": "lunes",
-    "predio": "Predio 3",
-    "fechaIngreso": "19/10/2026 00:00",
-    "fechaSalida": "19/10/2026 00:00",
-    "nombre": "LUIS E. GRANT",
     "horas": 0,
     "observaciones": "NO HAY DATOS"
   },
@@ -209,17 +187,6 @@
     "observaciones": "NO HAY DATOS"
   },
   {
-    "id": "rec-w43-LUIS-2",
-    "semana": 43,
-    "dia": "martes",
-    "predio": "Predio 3",
-    "fechaIngreso": "20/10/2026 00:00",
-    "fechaSalida": "20/10/2026 00:00",
-    "nombre": "LUIS E. GRANT",
-    "horas": 0,
-    "observaciones": "NO HAY DATOS"
-  },
-  {
     "id": "rec-w43-ENRIQUE-3",
     "semana": 43,
     "dia": "miércoles",
@@ -227,17 +194,6 @@
     "fechaIngreso": "21/10/2026 00:00",
     "fechaSalida": "21/10/2026 00:00",
     "nombre": "ENRIQUE GRANT",
-    "horas": 0,
-    "observaciones": "NO HAY DATOS"
-  },
-  {
-    "id": "rec-w43-LUIS-3",
-    "semana": 43,
-    "dia": "miércoles",
-    "predio": "Predio 3",
-    "fechaIngreso": "21/10/2026 00:00",
-    "fechaSalida": "21/10/2026 00:00",
-    "nombre": "LUIS E. GRANT",
     "horas": 0,
     "observaciones": "NO HAY DATOS"
   },
@@ -253,17 +209,6 @@
     "observaciones": "NO HAY DATOS"
   },
   {
-    "id": "rec-w43-LUIS-4",
-    "semana": 43,
-    "dia": "jueves",
-    "predio": "Predio 3",
-    "fechaIngreso": "22/10/2026 00:00",
-    "fechaSalida": "22/10/2026 00:00",
-    "nombre": "LUIS E. GRANT",
-    "horas": 0,
-    "observaciones": "NO HAY DATOS"
-  },
-  {
     "id": "rec-w43-ENRIQUE-5",
     "semana": 43,
     "dia": "viernes",
@@ -275,17 +220,6 @@
     "observaciones": "NO HAY DATOS"
   },
   {
-    "id": "rec-w43-LUIS-5",
-    "semana": 43,
-    "dia": "viernes",
-    "predio": "Predio 3",
-    "fechaIngreso": "23/10/2026 00:00",
-    "fechaSalida": "23/10/2026 00:00",
-    "nombre": "LUIS E. GRANT",
-    "horas": 0,
-    "observaciones": "NO HAY DATOS"
-  },
-  {
     "id": "rec-w43-ENRIQUE-6",
     "semana": 43,
     "dia": "sábado",
@@ -293,6 +227,72 @@
     "fechaIngreso": "24/10/2026 00:00",
     "fechaSalida": "24/10/2026 00:00",
     "nombre": "ENRIQUE GRANT",
+    "horas": 0,
+    "observaciones": "NO HAY DATOS"
+  },
+  {
+    "id": "rec-w43-LUIS-0",
+    "semana": 43,
+    "dia": "domingo",
+    "predio": "Predio 3",
+    "fechaIngreso": "18/10/2026 00:00",
+    "fechaSalida": "18/10/2026 00:00",
+    "nombre": "LUIS E. GRANT",
+    "horas": 0,
+    "observaciones": "LIBRE"
+  },
+  {
+    "id": "rec-w43-LUIS-1",
+    "semana": 43,
+    "dia": "lunes",
+    "predio": "Predio 3",
+    "fechaIngreso": "19/10/2026 00:00",
+    "fechaSalida": "19/10/2026 00:00",
+    "nombre": "LUIS E. GRANT",
+    "horas": 0,
+    "observaciones": "NO HAY DATOS"
+  },
+  {
+    "id": "rec-w43-LUIS-2",
+    "semana": 43,
+    "dia": "martes",
+    "predio": "Predio 3",
+    "fechaIngreso": "20/10/2026 00:00",
+    "fechaSalida": "20/10/2026 00:00",
+    "nombre": "LUIS E. GRANT",
+    "horas": 0,
+    "observaciones": "NO HAY DATOS"
+  },
+  {
+    "id": "rec-w43-LUIS-3",
+    "semana": 43,
+    "dia": "miércoles",
+    "predio": "Predio 3",
+    "fechaIngreso": "21/10/2026 00:00",
+    "fechaSalida": "21/10/2026 00:00",
+    "nombre": "LUIS E. GRANT",
+    "horas": 0,
+    "observaciones": "NO HAY DATOS"
+  },
+  {
+    "id": "rec-w43-LUIS-4",
+    "semana": 43,
+    "dia": "jueves",
+    "predio": "Predio 3",
+    "fechaIngreso": "22/10/2026 00:00",
+    "fechaSalida": "22/10/2026 00:00",
+    "nombre": "LUIS E. GRANT",
+    "horas": 0,
+    "observaciones": "NO HAY DATOS"
+  },
+  {
+    "id": "rec-w43-LUIS-5",
+    "semana": 43,
+    "dia": "viernes",
+    "predio": "Predio 3",
+    "fechaIngreso": "23/10/2026 00:00",
+    "fechaSalida": "23/10/2026 00:00",
+    "nombre": "LUIS E. GRANT",
     "horas": 0,
     "observaciones": "NO HAY DATOS"
   },
@@ -473,17 +473,6 @@
     "observaciones": "NO HAY DATOS"
   },
   {
-    "id": "rec-pdf-0344",
-    "semana": 40,
-    "dia": "domingo",
-    "predio": "Predio 3",
-    "fechaIngreso": "27/9/2026 00:00",
-    "fechaSalida": "27/9/2026 00:00",
-    "nombre": "LUIS E. GRANT",
-    "horas": 0,
-    "observaciones": "NO HAY DATOS"
-  },
-  {
     "id": "rec-pdf-0333",
     "semana": 40,
     "dia": "lunes",
@@ -503,28 +492,6 @@
     "fechaSalida": "28/9/2026 17:30",
     "nombre": "ENRIQUE GRANT",
     "horas": 3,
-    "observaciones": ""
-  },
-  {
-    "id": "rec-pdf-0345",
-    "semana": 40,
-    "dia": "lunes",
-    "predio": "Predio 3",
-    "fechaIngreso": "28/9/2026 06:56",
-    "fechaSalida": "28/9/2026 11:07",
-    "nombre": "LUIS E. GRANT",
-    "horas": 4.18,
-    "observaciones": ""
-  },
-  {
-    "id": "rec-pdf-0346",
-    "semana": 40,
-    "dia": "lunes",
-    "predio": "Predio 3",
-    "fechaIngreso": "28/9/2026 13:54",
-    "fechaSalida": "28/9/2026 16:34",
-    "nombre": "LUIS E. GRANT",
-    "horas": 2.67,
     "observaciones": ""
   },
   {
@@ -550,28 +517,6 @@
     "observaciones": ""
   },
   {
-    "id": "rec-pdf-0347",
-    "semana": 40,
-    "dia": "martes",
-    "predio": "Predio 3",
-    "fechaIngreso": "29/9/2026 08:17",
-    "fechaSalida": "29/9/2026 12:14",
-    "nombre": "LUIS E. GRANT",
-    "horas": 3.95,
-    "observaciones": ""
-  },
-  {
-    "id": "rec-pdf-0348",
-    "semana": 40,
-    "dia": "martes",
-    "predio": "Predio 3",
-    "fechaIngreso": "29/9/2026 13:11",
-    "fechaSalida": "29/9/2026 15:47",
-    "nombre": "LUIS E. GRANT",
-    "horas": 2.6,
-    "observaciones": ""
-  },
-  {
     "id": "rec-pdf-0337",
     "semana": 40,
     "dia": "miércoles",
@@ -591,28 +536,6 @@
     "fechaSalida": "30/9/2026 17:13",
     "nombre": "ENRIQUE GRANT",
     "horas": 3.42,
-    "observaciones": ""
-  },
-  {
-    "id": "rec-pdf-0349",
-    "semana": 40,
-    "dia": "miércoles",
-    "predio": "Predio 3",
-    "fechaIngreso": "30/9/2026 08:30",
-    "fechaSalida": "30/9/2026 12:58",
-    "nombre": "LUIS E. GRANT",
-    "horas": 4.47,
-    "observaciones": ""
-  },
-  {
-    "id": "rec-pdf-0350",
-    "semana": 40,
-    "dia": "miércoles",
-    "predio": "Predio 3",
-    "fechaIngreso": "30/9/2026 13:46",
-    "fechaSalida": "30/9/2026 16:46",
-    "nombre": "LUIS E. GRANT",
-    "horas": 3,
     "observaciones": ""
   },
   {
@@ -638,28 +561,6 @@
     "observaciones": ""
   },
   {
-    "id": "rec-pdf-0351",
-    "semana": 40,
-    "dia": "jueves",
-    "predio": "Predio 3",
-    "fechaIngreso": "1/10/2026 00:00",
-    "fechaSalida": "1/10/2026 00:00",
-    "nombre": "LUIS E. GRANT",
-    "horas": 0,
-    "observaciones": "NO HAY DATOS"
-  },
-  {
-    "id": "rec-pdf-0352",
-    "semana": 40,
-    "dia": "jueves",
-    "predio": "Predio 3",
-    "fechaIngreso": "1/10/2026 00:00",
-    "fechaSalida": "1/10/2026 00:00",
-    "nombre": "LUIS E. GRANT",
-    "horas": 0,
-    "observaciones": "NO HAY DATOS"
-  },
-  {
     "id": "rec-pdf-0341",
     "semana": 40,
     "dia": "viernes",
@@ -682,15 +583,114 @@
     "observaciones": ""
   },
   {
-    "id": "rec-pdf-0353",
+    "id": "rec-pdf-0343",
     "semana": 40,
-    "dia": "viernes",
+    "dia": "sábado",
     "predio": "Predio 3",
-    "fechaIngreso": "2/10/2026 14:25",
-    "fechaSalida": "2/10/2026 14:25",
+    "fechaIngreso": "3/10/2026 09:18",
+    "fechaSalida": "3/10/2026 11:00",
+    "nombre": "ENRIQUE GRANT",
+    "horas": 1.7,
+    "observaciones": ""
+  },
+  {
+    "id": "rec-pdf-0344",
+    "semana": 40,
+    "dia": "domingo",
+    "predio": "Predio 3",
+    "fechaIngreso": "27/9/2026 00:00",
+    "fechaSalida": "27/9/2026 00:00",
     "nombre": "LUIS E. GRANT",
     "horas": 0,
+    "observaciones": "NO HAY DATOS"
+  },
+  {
+    "id": "rec-pdf-0345",
+    "semana": 40,
+    "dia": "lunes",
+    "predio": "Predio 3",
+    "fechaIngreso": "28/9/2026 06:56",
+    "fechaSalida": "28/9/2026 11:07",
+    "nombre": "LUIS E. GRANT",
+    "horas": 4.18,
     "observaciones": ""
+  },
+  {
+    "id": "rec-pdf-0346",
+    "semana": 40,
+    "dia": "lunes",
+    "predio": "Predio 3",
+    "fechaIngreso": "28/9/2026 13:54",
+    "fechaSalida": "28/9/2026 16:34",
+    "nombre": "LUIS E. GRANT",
+    "horas": 2.67,
+    "observaciones": ""
+  },
+  {
+    "id": "rec-pdf-0347",
+    "semana": 40,
+    "dia": "martes",
+    "predio": "Predio 3",
+    "fechaIngreso": "29/9/2026 08:17",
+    "fechaSalida": "29/9/2026 12:14",
+    "nombre": "LUIS E. GRANT",
+    "horas": 3.95,
+    "observaciones": ""
+  },
+  {
+    "id": "rec-pdf-0348",
+    "semana": 40,
+    "dia": "martes",
+    "predio": "Predio 3",
+    "fechaIngreso": "29/9/2026 13:11",
+    "fechaSalida": "29/9/2026 15:47",
+    "nombre": "LUIS E. GRANT",
+    "horas": 2.6,
+    "observaciones": ""
+  },
+  {
+    "id": "rec-pdf-0349",
+    "semana": 40,
+    "dia": "miércoles",
+    "predio": "Predio 3",
+    "fechaIngreso": "30/9/2026 08:30",
+    "fechaSalida": "30/9/2026 12:58",
+    "nombre": "LUIS E. GRANT",
+    "horas": 4.47,
+    "observaciones": ""
+  },
+  {
+    "id": "rec-pdf-0350",
+    "semana": 40,
+    "dia": "miércoles",
+    "predio": "Predio 3",
+    "fechaIngreso": "30/9/2026 13:46",
+    "fechaSalida": "30/9/2026 16:46",
+    "nombre": "LUIS E. GRANT",
+    "horas": 3,
+    "observaciones": ""
+  },
+  {
+    "id": "rec-pdf-0351",
+    "semana": 40,
+    "dia": "jueves",
+    "predio": "Predio 3",
+    "fechaIngreso": "1/10/2026 00:00",
+    "fechaSalida": "1/10/2026 00:00",
+    "nombre": "LUIS E. GRANT",
+    "horas": 0,
+    "observaciones": "NO HAY DATOS"
+  },
+  {
+    "id": "rec-pdf-0352",
+    "semana": 40,
+    "dia": "jueves",
+    "predio": "Predio 3",
+    "fechaIngreso": "1/10/2026 00:00",
+    "fechaSalida": "1/10/2026 00:00",
+    "nombre": "LUIS E. GRANT",
+    "horas": 0,
+    "observaciones": "NO HAY DATOS"
   },
   {
     "id": "rec-pdf-0354",
@@ -704,14 +704,14 @@
     "observaciones": "NO HAY DATOS"
   },
   {
-    "id": "rec-pdf-0343",
+    "id": "rec-pdf-0353",
     "semana": 40,
-    "dia": "sábado",
+    "dia": "viernes",
     "predio": "Predio 3",
-    "fechaIngreso": "3/10/2026 09:18",
-    "fechaSalida": "3/10/2026 11:00",
-    "nombre": "ENRIQUE GRANT",
-    "horas": 1.7,
+    "fechaIngreso": "2/10/2026 14:25",
+    "fechaSalida": "2/10/2026 14:25",
+    "nombre": "LUIS E. GRANT",
+    "horas": 0,
     "observaciones": ""
   },
   {
@@ -733,17 +733,6 @@
     "fechaIngreso": "20/9/2026 00:00",
     "fechaSalida": "20/9/2026 00:00",
     "nombre": "ENRIQUE GRANT",
-    "horas": 0,
-    "observaciones": "NO HAY DATOS"
-  },
-  {
-    "id": "rec-pdf-0325",
-    "semana": 39,
-    "dia": "domingo",
-    "predio": "Predio 3",
-    "fechaIngreso": "20/9/2026 00:00",
-    "fechaSalida": "20/9/2026 00:00",
-    "nombre": "LUIS E. GRANT",
     "horas": 0,
     "observaciones": "NO HAY DATOS"
   },
@@ -770,17 +759,6 @@
     "observaciones": ""
   },
   {
-    "id": "rec-pdf-0326",
-    "semana": 39,
-    "dia": "lunes",
-    "predio": "Predio 3",
-    "fechaIngreso": "21/9/2026 00:00",
-    "fechaSalida": "21/9/2026 00:00",
-    "nombre": "LUIS E. GRANT",
-    "horas": 0,
-    "observaciones": "NO HAY DATOS"
-  },
-  {
     "id": "rec-pdf-0315",
     "semana": 39,
     "dia": "martes",
@@ -801,17 +779,6 @@
     "nombre": "ENRIQUE GRANT",
     "horas": 0.87,
     "observaciones": ""
-  },
-  {
-    "id": "rec-pdf-0327",
-    "semana": 39,
-    "dia": "martes",
-    "predio": "Predio 3",
-    "fechaIngreso": "22/9/2026 00:00",
-    "fechaSalida": "22/9/2026 00:00",
-    "nombre": "LUIS E. GRANT",
-    "horas": 0,
-    "observaciones": "NO HAY DATOS"
   },
   {
     "id": "rec-pdf-0317",
@@ -836,17 +803,6 @@
     "observaciones": ""
   },
   {
-    "id": "rec-pdf-0328",
-    "semana": 39,
-    "dia": "miércoles",
-    "predio": "Predio 3",
-    "fechaIngreso": "23/9/2026 00:00",
-    "fechaSalida": "23/9/2026 00:00",
-    "nombre": "LUIS E. GRANT",
-    "horas": 0,
-    "observaciones": "NO HAY DATOS"
-  },
-  {
     "id": "rec-pdf-0319",
     "semana": 39,
     "dia": "jueves",
@@ -867,17 +823,6 @@
     "nombre": "ENRIQUE GRANT",
     "horas": 2.13,
     "observaciones": ""
-  },
-  {
-    "id": "rec-pdf-0329",
-    "semana": 39,
-    "dia": "jueves",
-    "predio": "Predio 3",
-    "fechaIngreso": "24/9/2026 00:00",
-    "fechaSalida": "24/9/2026 00:00",
-    "nombre": "LUIS E. GRANT",
-    "horas": 0,
-    "observaciones": "NO HAY DATOS"
   },
   {
     "id": "rec-pdf-0321",
@@ -902,17 +847,6 @@
     "observaciones": ""
   },
   {
-    "id": "rec-pdf-0330",
-    "semana": 39,
-    "dia": "viernes",
-    "predio": "Predio 3",
-    "fechaIngreso": "25/9/2026 00:00",
-    "fechaSalida": "25/9/2026 00:00",
-    "nombre": "LUIS E. GRANT",
-    "horas": 0,
-    "observaciones": "NO HAY DATOS"
-  },
-  {
     "id": "rec-pdf-0323",
     "semana": 39,
     "dia": "sábado",
@@ -931,6 +865,72 @@
     "fechaIngreso": "26/9/2026 00:00",
     "fechaSalida": "26/9/2026 00:00",
     "nombre": "ENRIQUE GRANT",
+    "horas": 0,
+    "observaciones": "NO HAY DATOS"
+  },
+  {
+    "id": "rec-pdf-0325",
+    "semana": 39,
+    "dia": "domingo",
+    "predio": "Predio 3",
+    "fechaIngreso": "20/9/2026 00:00",
+    "fechaSalida": "20/9/2026 00:00",
+    "nombre": "LUIS E. GRANT",
+    "horas": 0,
+    "observaciones": "NO HAY DATOS"
+  },
+  {
+    "id": "rec-pdf-0326",
+    "semana": 39,
+    "dia": "lunes",
+    "predio": "Predio 3",
+    "fechaIngreso": "21/9/2026 00:00",
+    "fechaSalida": "21/9/2026 00:00",
+    "nombre": "LUIS E. GRANT",
+    "horas": 0,
+    "observaciones": "NO HAY DATOS"
+  },
+  {
+    "id": "rec-pdf-0327",
+    "semana": 39,
+    "dia": "martes",
+    "predio": "Predio 3",
+    "fechaIngreso": "22/9/2026 00:00",
+    "fechaSalida": "22/9/2026 00:00",
+    "nombre": "LUIS E. GRANT",
+    "horas": 0,
+    "observaciones": "NO HAY DATOS"
+  },
+  {
+    "id": "rec-pdf-0328",
+    "semana": 39,
+    "dia": "miércoles",
+    "predio": "Predio 3",
+    "fechaIngreso": "23/9/2026 00:00",
+    "fechaSalida": "23/9/2026 00:00",
+    "nombre": "LUIS E. GRANT",
+    "horas": 0,
+    "observaciones": "NO HAY DATOS"
+  },
+  {
+    "id": "rec-pdf-0329",
+    "semana": 39,
+    "dia": "jueves",
+    "predio": "Predio 3",
+    "fechaIngreso": "24/9/2026 00:00",
+    "fechaSalida": "24/9/2026 00:00",
+    "nombre": "LUIS E. GRANT",
+    "horas": 0,
+    "observaciones": "NO HAY DATOS"
+  },
+  {
+    "id": "rec-pdf-0330",
+    "semana": 39,
+    "dia": "viernes",
+    "predio": "Predio 3",
+    "fechaIngreso": "25/9/2026 00:00",
+    "fechaSalida": "25/9/2026 00:00",
+    "nombre": "LUIS E. GRANT",
     "horas": 0,
     "observaciones": "NO HAY DATOS"
   },
@@ -957,17 +957,6 @@
     "observaciones": "NO HAY DATOS"
   },
   {
-    "id": "rec-pdf-0306",
-    "semana": 38,
-    "dia": "domingo",
-    "predio": "Predio 3",
-    "fechaIngreso": "13/9/2026 00:00",
-    "fechaSalida": "13/9/2026 00:00",
-    "nombre": "LUIS E. GRANT",
-    "horas": 0,
-    "observaciones": "NO HAY DATOS"
-  },
-  {
     "id": "rec-pdf-0296",
     "semana": 38,
     "dia": "lunes",
@@ -979,17 +968,6 @@
     "observaciones": ""
   },
   {
-    "id": "rec-pdf-0307",
-    "semana": 38,
-    "dia": "lunes",
-    "predio": "Predio 3",
-    "fechaIngreso": "14/9/2026 00:00",
-    "fechaSalida": "14/9/2026 00:00",
-    "nombre": "LUIS E. GRANT",
-    "horas": 0,
-    "observaciones": "NO HAY DATOS"
-  },
-  {
     "id": "rec-pdf-0297",
     "semana": 38,
     "dia": "martes",
@@ -999,17 +977,6 @@
     "nombre": "ENRIQUE GRANT",
     "horas": 0,
     "observaciones": "FERIADO"
-  },
-  {
-    "id": "rec-pdf-0308",
-    "semana": 38,
-    "dia": "martes",
-    "predio": "Predio 3",
-    "fechaIngreso": "15/9/2026 00:00",
-    "fechaSalida": "15/9/2026 00:00",
-    "nombre": "LUIS E. GRANT",
-    "horas": 0,
-    "observaciones": "NO HAY DATOS"
   },
   {
     "id": "rec-pdf-0298",
@@ -1034,17 +1001,6 @@
     "observaciones": ""
   },
   {
-    "id": "rec-pdf-0309",
-    "semana": 38,
-    "dia": "miércoles",
-    "predio": "Predio 3",
-    "fechaIngreso": "16/9/2026 00:00",
-    "fechaSalida": "16/9/2026 00:00",
-    "nombre": "LUIS E. GRANT",
-    "horas": 0,
-    "observaciones": "NO HAY DATOS"
-  },
-  {
     "id": "rec-pdf-0300",
     "semana": 38,
     "dia": "jueves",
@@ -1065,17 +1021,6 @@
     "nombre": "ENRIQUE GRANT",
     "horas": 1.35,
     "observaciones": ""
-  },
-  {
-    "id": "rec-pdf-0310",
-    "semana": 38,
-    "dia": "jueves",
-    "predio": "Predio 3",
-    "fechaIngreso": "17/9/2026 00:00",
-    "fechaSalida": "17/9/2026 00:00",
-    "nombre": "LUIS E. GRANT",
-    "horas": 0,
-    "observaciones": "NO HAY DATOS"
   },
   {
     "id": "rec-pdf-0302",
@@ -1100,17 +1045,6 @@
     "observaciones": ""
   },
   {
-    "id": "rec-pdf-0311",
-    "semana": 38,
-    "dia": "viernes",
-    "predio": "Predio 3",
-    "fechaIngreso": "18/9/2026 00:00",
-    "fechaSalida": "18/9/2026 00:00",
-    "nombre": "LUIS E. GRANT",
-    "horas": 0,
-    "observaciones": "NO HAY DATOS"
-  },
-  {
     "id": "rec-pdf-0304",
     "semana": 38,
     "dia": "sábado",
@@ -1120,6 +1054,72 @@
     "nombre": "ENRIQUE GRANT",
     "horas": 1.5,
     "observaciones": ""
+  },
+  {
+    "id": "rec-pdf-0306",
+    "semana": 38,
+    "dia": "domingo",
+    "predio": "Predio 3",
+    "fechaIngreso": "13/9/2026 00:00",
+    "fechaSalida": "13/9/2026 00:00",
+    "nombre": "LUIS E. GRANT",
+    "horas": 0,
+    "observaciones": "NO HAY DATOS"
+  },
+  {
+    "id": "rec-pdf-0307",
+    "semana": 38,
+    "dia": "lunes",
+    "predio": "Predio 3",
+    "fechaIngreso": "14/9/2026 00:00",
+    "fechaSalida": "14/9/2026 00:00",
+    "nombre": "LUIS E. GRANT",
+    "horas": 0,
+    "observaciones": "NO HAY DATOS"
+  },
+  {
+    "id": "rec-pdf-0308",
+    "semana": 38,
+    "dia": "martes",
+    "predio": "Predio 3",
+    "fechaIngreso": "15/9/2026 00:00",
+    "fechaSalida": "15/9/2026 00:00",
+    "nombre": "LUIS E. GRANT",
+    "horas": 0,
+    "observaciones": "NO HAY DATOS"
+  },
+  {
+    "id": "rec-pdf-0309",
+    "semana": 38,
+    "dia": "miércoles",
+    "predio": "Predio 3",
+    "fechaIngreso": "16/9/2026 00:00",
+    "fechaSalida": "16/9/2026 00:00",
+    "nombre": "LUIS E. GRANT",
+    "horas": 0,
+    "observaciones": "NO HAY DATOS"
+  },
+  {
+    "id": "rec-pdf-0310",
+    "semana": 38,
+    "dia": "jueves",
+    "predio": "Predio 3",
+    "fechaIngreso": "17/9/2026 00:00",
+    "fechaSalida": "17/9/2026 00:00",
+    "nombre": "LUIS E. GRANT",
+    "horas": 0,
+    "observaciones": "NO HAY DATOS"
+  },
+  {
+    "id": "rec-pdf-0311",
+    "semana": 38,
+    "dia": "viernes",
+    "predio": "Predio 3",
+    "fechaIngreso": "18/9/2026 00:00",
+    "fechaSalida": "18/9/2026 00:00",
+    "nombre": "LUIS E. GRANT",
+    "horas": 0,
+    "observaciones": "NO HAY DATOS"
   },
   {
     "id": "rec-pdf-0312",
@@ -1140,17 +1140,6 @@
     "fechaIngreso": "6/9/2026 00:00",
     "fechaSalida": "6/9/2026 00:00",
     "nombre": "ENRIQUE GRANT",
-    "horas": 0,
-    "observaciones": "NO HAY DATOS"
-  },
-  {
-    "id": "rec-pdf-0288",
-    "semana": 37,
-    "dia": "domingo",
-    "predio": "Predio 3",
-    "fechaIngreso": "6/9/2026 00:00",
-    "fechaSalida": "6/9/2026 00:00",
-    "nombre": "LUIS E. GRANT",
     "horas": 0,
     "observaciones": "NO HAY DATOS"
   },
@@ -1177,17 +1166,6 @@
     "observaciones": ""
   },
   {
-    "id": "rec-pdf-0289",
-    "semana": 37,
-    "dia": "lunes",
-    "predio": "Predio 3",
-    "fechaIngreso": "7/9/2026 00:00",
-    "fechaSalida": "7/9/2026 00:00",
-    "nombre": "LUIS E. GRANT",
-    "horas": 0,
-    "observaciones": "NO HAY DATOS"
-  },
-  {
     "id": "rec-pdf-0282",
     "semana": 37,
     "dia": "martes",
@@ -1197,17 +1175,6 @@
     "nombre": "ENRIQUE GRANT",
     "horas": 1.75,
     "observaciones": ""
-  },
-  {
-    "id": "rec-pdf-0290",
-    "semana": 37,
-    "dia": "martes",
-    "predio": "Predio 3",
-    "fechaIngreso": "8/9/2026 00:00",
-    "fechaSalida": "8/9/2026 00:00",
-    "nombre": "LUIS E. GRANT",
-    "horas": 0,
-    "observaciones": "NO HAY DATOS"
   },
   {
     "id": "rec-pdf-0283",
@@ -1232,17 +1199,6 @@
     "observaciones": ""
   },
   {
-    "id": "rec-pdf-0291",
-    "semana": 37,
-    "dia": "miércoles",
-    "predio": "Predio 3",
-    "fechaIngreso": "9/9/2026 00:00",
-    "fechaSalida": "9/9/2026 00:00",
-    "nombre": "LUIS E. GRANT",
-    "horas": 0,
-    "observaciones": "NO HAY DATOS"
-  },
-  {
     "id": "rec-pdf-0285",
     "semana": 37,
     "dia": "jueves",
@@ -1252,17 +1208,6 @@
     "nombre": "ENRIQUE GRANT",
     "horas": 2.3,
     "observaciones": ""
-  },
-  {
-    "id": "rec-pdf-0292",
-    "semana": 37,
-    "dia": "jueves",
-    "predio": "Predio 3",
-    "fechaIngreso": "10/9/2026 00:00",
-    "fechaSalida": "10/9/2026 00:00",
-    "nombre": "LUIS E. GRANT",
-    "horas": 0,
-    "observaciones": "NO HAY DATOS"
   },
   {
     "id": "rec-pdf-0286",
@@ -1276,17 +1221,6 @@
     "observaciones": "NO HAY DATOS"
   },
   {
-    "id": "rec-pdf-0293",
-    "semana": 37,
-    "dia": "viernes",
-    "predio": "Predio 3",
-    "fechaIngreso": "11/9/2026 00:00",
-    "fechaSalida": "11/9/2026 00:00",
-    "nombre": "LUIS E. GRANT",
-    "horas": 0,
-    "observaciones": "NO HAY DATOS"
-  },
-  {
     "id": "rec-pdf-0287",
     "semana": 37,
     "dia": "sábado",
@@ -1294,6 +1228,72 @@
     "fechaIngreso": "12/9/2026 00:00",
     "fechaSalida": "12/9/2026 00:00",
     "nombre": "ENRIQUE GRANT",
+    "horas": 0,
+    "observaciones": "NO HAY DATOS"
+  },
+  {
+    "id": "rec-pdf-0288",
+    "semana": 37,
+    "dia": "domingo",
+    "predio": "Predio 3",
+    "fechaIngreso": "6/9/2026 00:00",
+    "fechaSalida": "6/9/2026 00:00",
+    "nombre": "LUIS E. GRANT",
+    "horas": 0,
+    "observaciones": "NO HAY DATOS"
+  },
+  {
+    "id": "rec-pdf-0289",
+    "semana": 37,
+    "dia": "lunes",
+    "predio": "Predio 3",
+    "fechaIngreso": "7/9/2026 00:00",
+    "fechaSalida": "7/9/2026 00:00",
+    "nombre": "LUIS E. GRANT",
+    "horas": 0,
+    "observaciones": "NO HAY DATOS"
+  },
+  {
+    "id": "rec-pdf-0290",
+    "semana": 37,
+    "dia": "martes",
+    "predio": "Predio 3",
+    "fechaIngreso": "8/9/2026 00:00",
+    "fechaSalida": "8/9/2026 00:00",
+    "nombre": "LUIS E. GRANT",
+    "horas": 0,
+    "observaciones": "NO HAY DATOS"
+  },
+  {
+    "id": "rec-pdf-0291",
+    "semana": 37,
+    "dia": "miércoles",
+    "predio": "Predio 3",
+    "fechaIngreso": "9/9/2026 00:00",
+    "fechaSalida": "9/9/2026 00:00",
+    "nombre": "LUIS E. GRANT",
+    "horas": 0,
+    "observaciones": "NO HAY DATOS"
+  },
+  {
+    "id": "rec-pdf-0292",
+    "semana": 37,
+    "dia": "jueves",
+    "predio": "Predio 3",
+    "fechaIngreso": "10/9/2026 00:00",
+    "fechaSalida": "10/9/2026 00:00",
+    "nombre": "LUIS E. GRANT",
+    "horas": 0,
+    "observaciones": "NO HAY DATOS"
+  },
+  {
+    "id": "rec-pdf-0293",
+    "semana": 37,
+    "dia": "viernes",
+    "predio": "Predio 3",
+    "fechaIngreso": "11/9/2026 00:00",
+    "fechaSalida": "11/9/2026 00:00",
+    "nombre": "LUIS E. GRANT",
     "horas": 0,
     "observaciones": "NO HAY DATOS"
   },
@@ -1320,17 +1320,6 @@
     "observaciones": "NO HAY DATOS"
   },
   {
-    "id": "rec-pdf-0273",
-    "semana": 36,
-    "dia": "lunes",
-    "predio": "Predio 3",
-    "fechaIngreso": "31/8/2026 00:00",
-    "fechaSalida": "31/8/2026 00:00",
-    "nombre": "LUIS E. GRANT",
-    "horas": 0,
-    "observaciones": "NO HAY DATOS"
-  },
-  {
     "id": "rec-pdf-0264",
     "semana": 36,
     "dia": "martes",
@@ -1351,17 +1340,6 @@
     "nombre": "ENRIQUE GRANT",
     "horas": 0.8,
     "observaciones": ""
-  },
-  {
-    "id": "rec-pdf-0274",
-    "semana": 36,
-    "dia": "martes",
-    "predio": "Predio 3",
-    "fechaIngreso": "1/9/2026 00:00",
-    "fechaSalida": "1/9/2026 00:00",
-    "nombre": "LUIS E. GRANT",
-    "horas": 0,
-    "observaciones": "NO HAY DATOS"
   },
   {
     "id": "rec-pdf-0266",
@@ -1386,17 +1364,6 @@
     "observaciones": ""
   },
   {
-    "id": "rec-pdf-0275",
-    "semana": 36,
-    "dia": "miércoles",
-    "predio": "Predio 3",
-    "fechaIngreso": "2/9/2026 00:00",
-    "fechaSalida": "2/9/2026 00:00",
-    "nombre": "LUIS E. GRANT",
-    "horas": 0,
-    "observaciones": "NO HAY DATOS"
-  },
-  {
     "id": "rec-pdf-0268",
     "semana": 36,
     "dia": "jueves",
@@ -1417,17 +1384,6 @@
     "nombre": "ENRIQUE GRANT",
     "horas": 3.48,
     "observaciones": ""
-  },
-  {
-    "id": "rec-pdf-0276",
-    "semana": 36,
-    "dia": "jueves",
-    "predio": "Predio 3",
-    "fechaIngreso": "3/9/2026 00:00",
-    "fechaSalida": "3/9/2026 00:00",
-    "nombre": "LUIS E. GRANT",
-    "horas": 0,
-    "observaciones": "NO HAY DATOS"
   },
   {
     "id": "rec-pdf-0270",
@@ -1452,17 +1408,6 @@
     "observaciones": ""
   },
   {
-    "id": "rec-pdf-0277",
-    "semana": 36,
-    "dia": "viernes",
-    "predio": "Predio 3",
-    "fechaIngreso": "4/9/2026 00:00",
-    "fechaSalida": "4/9/2026 00:00",
-    "nombre": "LUIS E. GRANT",
-    "horas": 0,
-    "observaciones": "NO HAY DATOS"
-  },
-  {
     "id": "rec-pdf-0272",
     "semana": 36,
     "dia": "sábado",
@@ -1470,6 +1415,61 @@
     "fechaIngreso": "5/9/2026 00:00",
     "fechaSalida": "5/9/2026 00:00",
     "nombre": "ENRIQUE GRANT",
+    "horas": 0,
+    "observaciones": "NO HAY DATOS"
+  },
+  {
+    "id": "rec-pdf-0273",
+    "semana": 36,
+    "dia": "lunes",
+    "predio": "Predio 3",
+    "fechaIngreso": "31/8/2026 00:00",
+    "fechaSalida": "31/8/2026 00:00",
+    "nombre": "LUIS E. GRANT",
+    "horas": 0,
+    "observaciones": "NO HAY DATOS"
+  },
+  {
+    "id": "rec-pdf-0274",
+    "semana": 36,
+    "dia": "martes",
+    "predio": "Predio 3",
+    "fechaIngreso": "1/9/2026 00:00",
+    "fechaSalida": "1/9/2026 00:00",
+    "nombre": "LUIS E. GRANT",
+    "horas": 0,
+    "observaciones": "NO HAY DATOS"
+  },
+  {
+    "id": "rec-pdf-0275",
+    "semana": 36,
+    "dia": "miércoles",
+    "predio": "Predio 3",
+    "fechaIngreso": "2/9/2026 00:00",
+    "fechaSalida": "2/9/2026 00:00",
+    "nombre": "LUIS E. GRANT",
+    "horas": 0,
+    "observaciones": "NO HAY DATOS"
+  },
+  {
+    "id": "rec-pdf-0276",
+    "semana": 36,
+    "dia": "jueves",
+    "predio": "Predio 3",
+    "fechaIngreso": "3/9/2026 00:00",
+    "fechaSalida": "3/9/2026 00:00",
+    "nombre": "LUIS E. GRANT",
+    "horas": 0,
+    "observaciones": "NO HAY DATOS"
+  },
+  {
+    "id": "rec-pdf-0277",
+    "semana": 36,
+    "dia": "viernes",
+    "predio": "Predio 3",
+    "fechaIngreso": "4/9/2026 00:00",
+    "fechaSalida": "4/9/2026 00:00",
+    "nombre": "LUIS E. GRANT",
     "horas": 0,
     "observaciones": "NO HAY DATOS"
   },
@@ -1507,28 +1507,6 @@
     "observaciones": ""
   },
   {
-    "id": "rec-pdf-0252",
-    "semana": 35,
-    "dia": "lunes",
-    "predio": "Predio 3",
-    "fechaIngreso": "24/8/2026 09:31",
-    "fechaSalida": "24/8/2026 12:05",
-    "nombre": "LUIS E. GRANT",
-    "horas": 2.57,
-    "observaciones": ""
-  },
-  {
-    "id": "rec-pdf-0253",
-    "semana": 35,
-    "dia": "lunes",
-    "predio": "Predio 3",
-    "fechaIngreso": "24/8/2026 13:15",
-    "fechaSalida": "24/8/2026 16:53",
-    "nombre": "LUIS E. GRANT",
-    "horas": 3.63,
-    "observaciones": ""
-  },
-  {
     "id": "rec-pdf-0243",
     "semana": 35,
     "dia": "martes",
@@ -1548,28 +1526,6 @@
     "fechaSalida": "25/8/2026 15:22",
     "nombre": "ENRIQUE GRANT",
     "horas": 2.12,
-    "observaciones": ""
-  },
-  {
-    "id": "rec-pdf-0254",
-    "semana": 35,
-    "dia": "martes",
-    "predio": "Predio 3",
-    "fechaIngreso": "25/8/2026 09:58",
-    "fechaSalida": "25/8/2026 12:25",
-    "nombre": "LUIS E. GRANT",
-    "horas": 2.45,
-    "observaciones": ""
-  },
-  {
-    "id": "rec-pdf-0255",
-    "semana": 35,
-    "dia": "martes",
-    "predio": "Predio 3",
-    "fechaIngreso": "25/8/2026 13:15",
-    "fechaSalida": "25/8/2026 15:20",
-    "nombre": "LUIS E. GRANT",
-    "horas": 2.08,
     "observaciones": ""
   },
   {
@@ -1595,28 +1551,6 @@
     "observaciones": ""
   },
   {
-    "id": "rec-pdf-0256",
-    "semana": 35,
-    "dia": "miércoles",
-    "predio": "Predio 3",
-    "fechaIngreso": "26/8/2026 11:08",
-    "fechaSalida": "26/8/2026 12:16",
-    "nombre": "LUIS E. GRANT",
-    "horas": 1.13,
-    "observaciones": ""
-  },
-  {
-    "id": "rec-pdf-0257",
-    "semana": 35,
-    "dia": "miércoles",
-    "predio": "Predio 3",
-    "fechaIngreso": "26/8/2026 13:09",
-    "fechaSalida": "26/8/2026 17:28",
-    "nombre": "LUIS E. GRANT",
-    "horas": 4.32,
-    "observaciones": ""
-  },
-  {
     "id": "rec-pdf-0247",
     "semana": 35,
     "dia": "jueves",
@@ -1636,28 +1570,6 @@
     "fechaSalida": "27/8/2026 16:21",
     "nombre": "ENRIQUE GRANT",
     "horas": 3.6,
-    "observaciones": ""
-  },
-  {
-    "id": "rec-pdf-0258",
-    "semana": 35,
-    "dia": "jueves",
-    "predio": "Predio 3",
-    "fechaIngreso": "27/8/2026 10:47",
-    "fechaSalida": "27/8/2026 12:00",
-    "nombre": "LUIS E. GRANT",
-    "horas": 1.22,
-    "observaciones": ""
-  },
-  {
-    "id": "rec-pdf-0259",
-    "semana": 35,
-    "dia": "jueves",
-    "predio": "Predio 3",
-    "fechaIngreso": "27/8/2026 14:14",
-    "fechaSalida": "27/8/2026 16:27",
-    "nombre": "LUIS E. GRANT",
-    "horas": 2.22,
     "observaciones": ""
   },
   {
@@ -1683,6 +1595,105 @@
     "observaciones": ""
   },
   {
+    "id": "rec-pdf-0250",
+    "semana": 35,
+    "dia": "sábado",
+    "predio": "Predio 3",
+    "fechaIngreso": "29/8/2026 00:00",
+    "fechaSalida": "29/8/2026 00:00",
+    "nombre": "ENRIQUE GRANT",
+    "horas": 0,
+    "observaciones": "NO HAY REGISTROS"
+  },
+  {
+    "id": "rec-pdf-0252",
+    "semana": 35,
+    "dia": "lunes",
+    "predio": "Predio 3",
+    "fechaIngreso": "24/8/2026 09:31",
+    "fechaSalida": "24/8/2026 12:05",
+    "nombre": "LUIS E. GRANT",
+    "horas": 2.57,
+    "observaciones": ""
+  },
+  {
+    "id": "rec-pdf-0253",
+    "semana": 35,
+    "dia": "lunes",
+    "predio": "Predio 3",
+    "fechaIngreso": "24/8/2026 13:15",
+    "fechaSalida": "24/8/2026 16:53",
+    "nombre": "LUIS E. GRANT",
+    "horas": 3.63,
+    "observaciones": ""
+  },
+  {
+    "id": "rec-pdf-0254",
+    "semana": 35,
+    "dia": "martes",
+    "predio": "Predio 3",
+    "fechaIngreso": "25/8/2026 09:58",
+    "fechaSalida": "25/8/2026 12:25",
+    "nombre": "LUIS E. GRANT",
+    "horas": 2.45,
+    "observaciones": ""
+  },
+  {
+    "id": "rec-pdf-0255",
+    "semana": 35,
+    "dia": "martes",
+    "predio": "Predio 3",
+    "fechaIngreso": "25/8/2026 13:15",
+    "fechaSalida": "25/8/2026 15:20",
+    "nombre": "LUIS E. GRANT",
+    "horas": 2.08,
+    "observaciones": ""
+  },
+  {
+    "id": "rec-pdf-0256",
+    "semana": 35,
+    "dia": "miércoles",
+    "predio": "Predio 3",
+    "fechaIngreso": "26/8/2026 11:08",
+    "fechaSalida": "26/8/2026 12:16",
+    "nombre": "LUIS E. GRANT",
+    "horas": 1.13,
+    "observaciones": ""
+  },
+  {
+    "id": "rec-pdf-0257",
+    "semana": 35,
+    "dia": "miércoles",
+    "predio": "Predio 3",
+    "fechaIngreso": "26/8/2026 13:09",
+    "fechaSalida": "26/8/2026 17:28",
+    "nombre": "LUIS E. GRANT",
+    "horas": 4.32,
+    "observaciones": ""
+  },
+  {
+    "id": "rec-pdf-0258",
+    "semana": 35,
+    "dia": "jueves",
+    "predio": "Predio 3",
+    "fechaIngreso": "27/8/2026 10:47",
+    "fechaSalida": "27/8/2026 12:00",
+    "nombre": "LUIS E. GRANT",
+    "horas": 1.22,
+    "observaciones": ""
+  },
+  {
+    "id": "rec-pdf-0259",
+    "semana": 35,
+    "dia": "jueves",
+    "predio": "Predio 3",
+    "fechaIngreso": "27/8/2026 14:14",
+    "fechaSalida": "27/8/2026 16:27",
+    "nombre": "LUIS E. GRANT",
+    "horas": 2.22,
+    "observaciones": ""
+  },
+  {
     "id": "rec-pdf-0260",
     "semana": 35,
     "dia": "viernes",
@@ -1703,17 +1714,6 @@
     "nombre": "LUIS E. GRANT",
     "horas": 0.95,
     "observaciones": ""
-  },
-  {
-    "id": "rec-pdf-0250",
-    "semana": 35,
-    "dia": "sábado",
-    "predio": "Predio 3",
-    "fechaIngreso": "29/8/2026 00:00",
-    "fechaSalida": "29/8/2026 00:00",
-    "nombre": "ENRIQUE GRANT",
-    "horas": 0,
-    "observaciones": "NO HAY REGISTROS"
   },
   {
     "id": "rec-pdf-0262",
@@ -1738,17 +1738,6 @@
     "observaciones": ""
   },
   {
-    "id": "rec-pdf-0234",
-    "semana": 34,
-    "dia": "domingo",
-    "predio": "Predio 3",
-    "fechaIngreso": "16/8/2026 00:00",
-    "fechaSalida": "16/8/2026 00:00",
-    "nombre": "LUIS E. GRANT",
-    "horas": 0,
-    "observaciones": ""
-  },
-  {
     "id": "rec-pdf-0224",
     "semana": 34,
     "dia": "lunes",
@@ -1758,17 +1747,6 @@
     "nombre": "ENRIQUE GRANT",
     "horas": 3.87,
     "observaciones": "PREDIO 2"
-  },
-  {
-    "id": "rec-pdf-0235",
-    "semana": 34,
-    "dia": "lunes",
-    "predio": "Predio 3",
-    "fechaIngreso": "17/8/2026 00:00",
-    "fechaSalida": "17/8/2026 00:00",
-    "nombre": "LUIS E. GRANT",
-    "horas": 0,
-    "observaciones": "TRABAJO EN CARTAGO"
   },
   {
     "id": "rec-pdf-0225",
@@ -1793,17 +1771,6 @@
     "observaciones": ""
   },
   {
-    "id": "rec-pdf-0236",
-    "semana": 34,
-    "dia": "martes",
-    "predio": "Predio 3",
-    "fechaIngreso": "18/8/2026 00:00",
-    "fechaSalida": "18/8/2026 00:00",
-    "nombre": "LUIS E. GRANT",
-    "horas": 0,
-    "observaciones": "TRABAJO EN CARTAGO"
-  },
-  {
     "id": "rec-pdf-0227",
     "semana": 34,
     "dia": "miércoles",
@@ -1823,17 +1790,6 @@
     "fechaSalida": "19/8/2026 16:21",
     "nombre": "ENRIQUE GRANT",
     "horas": 1.8,
-    "observaciones": ""
-  },
-  {
-    "id": "rec-pdf-0237",
-    "semana": 34,
-    "dia": "miércoles",
-    "predio": "Predio 3",
-    "fechaIngreso": "19/8/2026 15:42",
-    "fechaSalida": "19/8/2026 15:46",
-    "nombre": "LUIS E. GRANT",
-    "horas": 0.07,
     "observaciones": ""
   },
   {
@@ -1859,17 +1815,6 @@
     "observaciones": ""
   },
   {
-    "id": "rec-pdf-0238",
-    "semana": 34,
-    "dia": "jueves",
-    "predio": "Predio 3",
-    "fechaIngreso": "20/8/2026 08:00",
-    "fechaSalida": "20/8/2026 12:16",
-    "nombre": "LUIS E. GRANT",
-    "horas": 4.27,
-    "observaciones": ""
-  },
-  {
     "id": "rec-pdf-0231",
     "semana": 34,
     "dia": "viernes",
@@ -1892,17 +1837,6 @@
     "observaciones": ""
   },
   {
-    "id": "rec-pdf-0239",
-    "semana": 34,
-    "dia": "viernes",
-    "predio": "Predio 3",
-    "fechaIngreso": "21/8/2026 00:00",
-    "fechaSalida": "21/8/2026 00:00",
-    "nombre": "LUIS E. GRANT",
-    "horas": 0,
-    "observaciones": "NO HAY DATOS"
-  },
-  {
     "id": "rec-pdf-0233",
     "semana": 34,
     "dia": "sábado",
@@ -1910,6 +1844,72 @@
     "fechaIngreso": "22/8/2026 00:00",
     "fechaSalida": "22/8/2026 00:00",
     "nombre": "ENRIQUE GRANT",
+    "horas": 0,
+    "observaciones": "NO HAY DATOS"
+  },
+  {
+    "id": "rec-pdf-0234",
+    "semana": 34,
+    "dia": "domingo",
+    "predio": "Predio 3",
+    "fechaIngreso": "16/8/2026 00:00",
+    "fechaSalida": "16/8/2026 00:00",
+    "nombre": "LUIS E. GRANT",
+    "horas": 0,
+    "observaciones": ""
+  },
+  {
+    "id": "rec-pdf-0235",
+    "semana": 34,
+    "dia": "lunes",
+    "predio": "Predio 3",
+    "fechaIngreso": "17/8/2026 00:00",
+    "fechaSalida": "17/8/2026 00:00",
+    "nombre": "LUIS E. GRANT",
+    "horas": 0,
+    "observaciones": "TRABAJO EN CARTAGO"
+  },
+  {
+    "id": "rec-pdf-0236",
+    "semana": 34,
+    "dia": "martes",
+    "predio": "Predio 3",
+    "fechaIngreso": "18/8/2026 00:00",
+    "fechaSalida": "18/8/2026 00:00",
+    "nombre": "LUIS E. GRANT",
+    "horas": 0,
+    "observaciones": "TRABAJO EN CARTAGO"
+  },
+  {
+    "id": "rec-pdf-0237",
+    "semana": 34,
+    "dia": "miércoles",
+    "predio": "Predio 3",
+    "fechaIngreso": "19/8/2026 15:42",
+    "fechaSalida": "19/8/2026 15:46",
+    "nombre": "LUIS E. GRANT",
+    "horas": 0.07,
+    "observaciones": ""
+  },
+  {
+    "id": "rec-pdf-0238",
+    "semana": 34,
+    "dia": "jueves",
+    "predio": "Predio 3",
+    "fechaIngreso": "20/8/2026 08:00",
+    "fechaSalida": "20/8/2026 12:16",
+    "nombre": "LUIS E. GRANT",
+    "horas": 4.27,
+    "observaciones": ""
+  },
+  {
+    "id": "rec-pdf-0239",
+    "semana": 34,
+    "dia": "viernes",
+    "predio": "Predio 3",
+    "fechaIngreso": "21/8/2026 00:00",
+    "fechaSalida": "21/8/2026 00:00",
+    "nombre": "LUIS E. GRANT",
     "horas": 0,
     "observaciones": "NO HAY DATOS"
   },
@@ -1936,17 +1936,6 @@
     "observaciones": "NO HAY DATOS"
   },
   {
-    "id": "rec-pdf-0212",
-    "semana": 33,
-    "dia": "domingo",
-    "predio": "Predio 3",
-    "fechaIngreso": "9/8/2026 00:00",
-    "fechaSalida": "9/8/2026 00:00",
-    "nombre": "LUIS E. GRANT",
-    "horas": 0,
-    "observaciones": "NO HAY DATOS"
-  },
-  {
     "id": "rec-pdf-0198",
     "semana": 33,
     "dia": "lunes",
@@ -1969,17 +1958,6 @@
     "observaciones": ""
   },
   {
-    "id": "rec-pdf-0213",
-    "semana": 33,
-    "dia": "lunes",
-    "predio": "Predio 3",
-    "fechaIngreso": "10/8/2026 00:00",
-    "fechaSalida": "10/8/2026 00:00",
-    "nombre": "LUIS E. GRANT",
-    "horas": 0,
-    "observaciones": "NO HAY DATOS"
-  },
-  {
     "id": "rec-pdf-0200",
     "semana": 33,
     "dia": "martes",
@@ -1999,39 +1977,6 @@
     "fechaSalida": "11/8/2026 15:55",
     "nombre": "ENRIQUE GRANT",
     "horas": 1.02,
-    "observaciones": ""
-  },
-  {
-    "id": "rec-pdf-0214",
-    "semana": 33,
-    "dia": "martes",
-    "predio": "Predio 3",
-    "fechaIngreso": "11/8/2026 09:45",
-    "fechaSalida": "11/8/2026 10:21",
-    "nombre": "LUIS E. GRANT",
-    "horas": 0.6,
-    "observaciones": ""
-  },
-  {
-    "id": "rec-pdf-0215",
-    "semana": 33,
-    "dia": "martes",
-    "predio": "Predio 3",
-    "fechaIngreso": "11/8/2026 11:26",
-    "fechaSalida": "11/8/2026 12:53",
-    "nombre": "LUIS E. GRANT",
-    "horas": 1.45,
-    "observaciones": ""
-  },
-  {
-    "id": "rec-pdf-0216",
-    "semana": 33,
-    "dia": "martes",
-    "predio": "Predio 3",
-    "fechaIngreso": "11/8/2026 14:54",
-    "fechaSalida": "11/8/2026 16:35",
-    "nombre": "LUIS E. GRANT",
-    "horas": 1.68,
     "observaciones": ""
   },
   {
@@ -2079,28 +2024,6 @@
     "observaciones": ""
   },
   {
-    "id": "rec-pdf-0217",
-    "semana": 33,
-    "dia": "miércoles",
-    "predio": "Predio 3",
-    "fechaIngreso": "12/8/2026 11:39",
-    "fechaSalida": "12/8/2026 13:00",
-    "nombre": "LUIS E. GRANT",
-    "horas": 1.35,
-    "observaciones": ""
-  },
-  {
-    "id": "rec-pdf-0218",
-    "semana": 33,
-    "dia": "miércoles",
-    "predio": "Predio 3",
-    "fechaIngreso": "12/8/2026 13:28",
-    "fechaSalida": "12/8/2026 17:00",
-    "nombre": "LUIS E. GRANT",
-    "horas": 3.53,
-    "observaciones": ""
-  },
-  {
     "id": "rec-pdf-0206",
     "semana": 33,
     "dia": "jueves",
@@ -2120,28 +2043,6 @@
     "fechaSalida": "13/8/2026 16:57",
     "nombre": "ENRIQUE GRANT",
     "horas": 2.93,
-    "observaciones": ""
-  },
-  {
-    "id": "rec-pdf-0219",
-    "semana": 33,
-    "dia": "jueves",
-    "predio": "Predio 3",
-    "fechaIngreso": "13/8/2026 07:53",
-    "fechaSalida": "13/8/2026 12:14",
-    "nombre": "LUIS E. GRANT",
-    "horas": 4.35,
-    "observaciones": ""
-  },
-  {
-    "id": "rec-pdf-0220",
-    "semana": 33,
-    "dia": "jueves",
-    "predio": "Predio 3",
-    "fechaIngreso": "13/8/2026 14:45",
-    "fechaSalida": "13/8/2026 16:13",
-    "nombre": "LUIS E. GRANT",
-    "horas": 1.47,
     "observaciones": ""
   },
   {
@@ -2178,17 +2079,6 @@
     "observaciones": ""
   },
   {
-    "id": "rec-pdf-0221",
-    "semana": 33,
-    "dia": "viernes",
-    "predio": "Predio 3",
-    "fechaIngreso": "14/8/2026 10:51",
-    "fechaSalida": "14/8/2026 12:13",
-    "nombre": "LUIS E. GRANT",
-    "horas": 1.37,
-    "observaciones": ""
-  },
-  {
     "id": "rec-pdf-0211",
     "semana": 33,
     "dia": "sábado",
@@ -2198,6 +2088,116 @@
     "nombre": "ENRIQUE GRANT",
     "horas": 0,
     "observaciones": "FERIADO"
+  },
+  {
+    "id": "rec-pdf-0212",
+    "semana": 33,
+    "dia": "domingo",
+    "predio": "Predio 3",
+    "fechaIngreso": "9/8/2026 00:00",
+    "fechaSalida": "9/8/2026 00:00",
+    "nombre": "LUIS E. GRANT",
+    "horas": 0,
+    "observaciones": "NO HAY DATOS"
+  },
+  {
+    "id": "rec-pdf-0213",
+    "semana": 33,
+    "dia": "lunes",
+    "predio": "Predio 3",
+    "fechaIngreso": "10/8/2026 00:00",
+    "fechaSalida": "10/8/2026 00:00",
+    "nombre": "LUIS E. GRANT",
+    "horas": 0,
+    "observaciones": "NO HAY DATOS"
+  },
+  {
+    "id": "rec-pdf-0214",
+    "semana": 33,
+    "dia": "martes",
+    "predio": "Predio 3",
+    "fechaIngreso": "11/8/2026 09:45",
+    "fechaSalida": "11/8/2026 10:21",
+    "nombre": "LUIS E. GRANT",
+    "horas": 0.6,
+    "observaciones": ""
+  },
+  {
+    "id": "rec-pdf-0215",
+    "semana": 33,
+    "dia": "martes",
+    "predio": "Predio 3",
+    "fechaIngreso": "11/8/2026 11:26",
+    "fechaSalida": "11/8/2026 12:53",
+    "nombre": "LUIS E. GRANT",
+    "horas": 1.45,
+    "observaciones": ""
+  },
+  {
+    "id": "rec-pdf-0216",
+    "semana": 33,
+    "dia": "martes",
+    "predio": "Predio 3",
+    "fechaIngreso": "11/8/2026 14:54",
+    "fechaSalida": "11/8/2026 16:35",
+    "nombre": "LUIS E. GRANT",
+    "horas": 1.68,
+    "observaciones": ""
+  },
+  {
+    "id": "rec-pdf-0217",
+    "semana": 33,
+    "dia": "miércoles",
+    "predio": "Predio 3",
+    "fechaIngreso": "12/8/2026 11:39",
+    "fechaSalida": "12/8/2026 13:00",
+    "nombre": "LUIS E. GRANT",
+    "horas": 1.35,
+    "observaciones": ""
+  },
+  {
+    "id": "rec-pdf-0218",
+    "semana": 33,
+    "dia": "miércoles",
+    "predio": "Predio 3",
+    "fechaIngreso": "12/8/2026 13:28",
+    "fechaSalida": "12/8/2026 17:00",
+    "nombre": "LUIS E. GRANT",
+    "horas": 3.53,
+    "observaciones": ""
+  },
+  {
+    "id": "rec-pdf-0219",
+    "semana": 33,
+    "dia": "jueves",
+    "predio": "Predio 3",
+    "fechaIngreso": "13/8/2026 07:53",
+    "fechaSalida": "13/8/2026 12:14",
+    "nombre": "LUIS E. GRANT",
+    "horas": 4.35,
+    "observaciones": ""
+  },
+  {
+    "id": "rec-pdf-0220",
+    "semana": 33,
+    "dia": "jueves",
+    "predio": "Predio 3",
+    "fechaIngreso": "13/8/2026 14:45",
+    "fechaSalida": "13/8/2026 16:13",
+    "nombre": "LUIS E. GRANT",
+    "horas": 1.47,
+    "observaciones": ""
+  },
+  {
+    "id": "rec-pdf-0221",
+    "semana": 33,
+    "dia": "viernes",
+    "predio": "Predio 3",
+    "fechaIngreso": "14/8/2026 10:51",
+    "fechaSalida": "14/8/2026 12:13",
+    "nombre": "LUIS E. GRANT",
+    "horas": 1.37,
+    "observaciones": ""
   },
   {
     "id": "rec-pdf-0222",
@@ -2222,17 +2222,6 @@
     "observaciones": "NO HAY DATOS"
   },
   {
-    "id": "rec-pdf-0187",
-    "semana": 32,
-    "dia": "domingo",
-    "predio": "Predio 3",
-    "fechaIngreso": "2/8/2026 00:00",
-    "fechaSalida": "2/8/2026 00:00",
-    "nombre": "LUIS E. GRANT",
-    "horas": 0,
-    "observaciones": "NO HAY DATOS"
-  },
-  {
     "id": "rec-pdf-0178",
     "semana": 32,
     "dia": "lunes",
@@ -2240,17 +2229,6 @@
     "fechaIngreso": "3/8/2026 00:00",
     "fechaSalida": "3/8/2026 00:00",
     "nombre": "ENRIQUE GRANT",
-    "horas": 0,
-    "observaciones": "NO HAY DATOS"
-  },
-  {
-    "id": "rec-pdf-0188",
-    "semana": 32,
-    "dia": "lunes",
-    "predio": "Predio 3",
-    "fechaIngreso": "3/8/2026 00:00",
-    "fechaSalida": "3/8/2026 00:00",
-    "nombre": "LUIS E. GRANT",
     "horas": 0,
     "observaciones": "NO HAY DATOS"
   },
@@ -2263,28 +2241,6 @@
     "fechaSalida": "4/8/2026 15:07",
     "nombre": "ENRIQUE GRANT",
     "horas": 1.82,
-    "observaciones": ""
-  },
-  {
-    "id": "rec-pdf-0189",
-    "semana": 32,
-    "dia": "martes",
-    "predio": "Predio 3",
-    "fechaIngreso": "4/8/2026 08:45",
-    "fechaSalida": "4/8/2026 11:57",
-    "nombre": "LUIS E. GRANT",
-    "horas": 3.2,
-    "observaciones": ""
-  },
-  {
-    "id": "rec-pdf-0190",
-    "semana": 32,
-    "dia": "martes",
-    "predio": "Predio 3",
-    "fechaIngreso": "4/8/2026 13:07",
-    "fechaSalida": "4/8/2026 15:43",
-    "nombre": "LUIS E. GRANT",
-    "horas": 2.6,
     "observaciones": ""
   },
   {
@@ -2310,28 +2266,6 @@
     "observaciones": ""
   },
   {
-    "id": "rec-pdf-0191",
-    "semana": 32,
-    "dia": "miércoles",
-    "predio": "Predio 3",
-    "fechaIngreso": "5/8/2026 08:29",
-    "fechaSalida": "5/8/2026 12:48",
-    "nombre": "LUIS E. GRANT",
-    "horas": 4.32,
-    "observaciones": ""
-  },
-  {
-    "id": "rec-pdf-0192",
-    "semana": 32,
-    "dia": "miércoles",
-    "predio": "Predio 3",
-    "fechaIngreso": "5/8/2026 13:38",
-    "fechaSalida": "5/8/2026 16:18",
-    "nombre": "LUIS E. GRANT",
-    "horas": 2.67,
-    "observaciones": ""
-  },
-  {
     "id": "rec-pdf-0182",
     "semana": 32,
     "dia": "jueves",
@@ -2351,17 +2285,6 @@
     "fechaSalida": "6/8/2026 15:47",
     "nombre": "ENRIQUE GRANT",
     "horas": 1.43,
-    "observaciones": ""
-  },
-  {
-    "id": "rec-pdf-0193",
-    "semana": 32,
-    "dia": "jueves",
-    "predio": "Predio 3",
-    "fechaIngreso": "6/8/2026 13:56",
-    "fechaSalida": "6/8/2026 16:56",
-    "nombre": "LUIS E. GRANT",
-    "horas": 3,
     "observaciones": ""
   },
   {
@@ -2387,6 +2310,94 @@
     "observaciones": ""
   },
   {
+    "id": "rec-pdf-0186",
+    "semana": 32,
+    "dia": "sábado",
+    "predio": "Predio 3",
+    "fechaIngreso": "8/8/2026 10:33",
+    "fechaSalida": "8/8/2026 12:02",
+    "nombre": "ENRIQUE GRANT",
+    "horas": 1.48,
+    "observaciones": ""
+  },
+  {
+    "id": "rec-pdf-0187",
+    "semana": 32,
+    "dia": "domingo",
+    "predio": "Predio 3",
+    "fechaIngreso": "2/8/2026 00:00",
+    "fechaSalida": "2/8/2026 00:00",
+    "nombre": "LUIS E. GRANT",
+    "horas": 0,
+    "observaciones": "NO HAY DATOS"
+  },
+  {
+    "id": "rec-pdf-0188",
+    "semana": 32,
+    "dia": "lunes",
+    "predio": "Predio 3",
+    "fechaIngreso": "3/8/2026 00:00",
+    "fechaSalida": "3/8/2026 00:00",
+    "nombre": "LUIS E. GRANT",
+    "horas": 0,
+    "observaciones": "NO HAY DATOS"
+  },
+  {
+    "id": "rec-pdf-0189",
+    "semana": 32,
+    "dia": "martes",
+    "predio": "Predio 3",
+    "fechaIngreso": "4/8/2026 08:45",
+    "fechaSalida": "4/8/2026 11:57",
+    "nombre": "LUIS E. GRANT",
+    "horas": 3.2,
+    "observaciones": ""
+  },
+  {
+    "id": "rec-pdf-0190",
+    "semana": 32,
+    "dia": "martes",
+    "predio": "Predio 3",
+    "fechaIngreso": "4/8/2026 13:07",
+    "fechaSalida": "4/8/2026 15:43",
+    "nombre": "LUIS E. GRANT",
+    "horas": 2.6,
+    "observaciones": ""
+  },
+  {
+    "id": "rec-pdf-0191",
+    "semana": 32,
+    "dia": "miércoles",
+    "predio": "Predio 3",
+    "fechaIngreso": "5/8/2026 08:29",
+    "fechaSalida": "5/8/2026 12:48",
+    "nombre": "LUIS E. GRANT",
+    "horas": 4.32,
+    "observaciones": ""
+  },
+  {
+    "id": "rec-pdf-0192",
+    "semana": 32,
+    "dia": "miércoles",
+    "predio": "Predio 3",
+    "fechaIngreso": "5/8/2026 13:38",
+    "fechaSalida": "5/8/2026 16:18",
+    "nombre": "LUIS E. GRANT",
+    "horas": 2.67,
+    "observaciones": ""
+  },
+  {
+    "id": "rec-pdf-0193",
+    "semana": 32,
+    "dia": "jueves",
+    "predio": "Predio 3",
+    "fechaIngreso": "6/8/2026 13:56",
+    "fechaSalida": "6/8/2026 16:56",
+    "nombre": "LUIS E. GRANT",
+    "horas": 3,
+    "observaciones": ""
+  },
+  {
     "id": "rec-pdf-0194",
     "semana": 32,
     "dia": "viernes",
@@ -2406,17 +2417,6 @@
     "fechaSalida": "7/8/2026 14:31",
     "nombre": "LUIS E. GRANT",
     "horas": 0.5,
-    "observaciones": ""
-  },
-  {
-    "id": "rec-pdf-0186",
-    "semana": 32,
-    "dia": "sábado",
-    "predio": "Predio 3",
-    "fechaIngreso": "8/8/2026 10:33",
-    "fechaSalida": "8/8/2026 12:02",
-    "nombre": "ENRIQUE GRANT",
-    "horas": 1.48,
     "observaciones": ""
   },
   {
@@ -2442,17 +2442,6 @@
     "observaciones": "NO HAY DATOS"
   },
   {
-    "id": "rec-pdf-0170",
-    "semana": 31,
-    "dia": "domingo",
-    "predio": "Predio 3",
-    "fechaIngreso": "26/7/2026 00:00",
-    "fechaSalida": "26/7/2026 00:00",
-    "nombre": "LUIS E. GRANT",
-    "horas": 0,
-    "observaciones": "NO HAY DATOS"
-  },
-  {
     "id": "rec-pdf-0164",
     "semana": 31,
     "dia": "lunes",
@@ -2464,17 +2453,6 @@
     "observaciones": ""
   },
   {
-    "id": "rec-pdf-0171",
-    "semana": 31,
-    "dia": "lunes",
-    "predio": "Predio 3",
-    "fechaIngreso": "27/7/2026 00:00",
-    "fechaSalida": "27/7/2026 00:00",
-    "nombre": "LUIS E. GRANT",
-    "horas": 0,
-    "observaciones": "NO HAY DATOS"
-  },
-  {
     "id": "rec-pdf-0165",
     "semana": 31,
     "dia": "martes",
@@ -2482,17 +2460,6 @@
     "fechaIngreso": "28/7/2026 00:00",
     "fechaSalida": "28/7/2026 00:00",
     "nombre": "ENRIQUE GRANT",
-    "horas": 0,
-    "observaciones": "NO HAY DATOS"
-  },
-  {
-    "id": "rec-pdf-0172",
-    "semana": 31,
-    "dia": "martes",
-    "predio": "Predio 3",
-    "fechaIngreso": "28/7/2026 00:00",
-    "fechaSalida": "28/7/2026 00:00",
-    "nombre": "LUIS E. GRANT",
     "horas": 0,
     "observaciones": "NO HAY DATOS"
   },
@@ -2508,17 +2475,6 @@
     "observaciones": "NO HAY DATOS"
   },
   {
-    "id": "rec-pdf-0173",
-    "semana": 31,
-    "dia": "miércoles",
-    "predio": "Predio 3",
-    "fechaIngreso": "29/7/2026 00:00",
-    "fechaSalida": "29/7/2026 00:00",
-    "nombre": "LUIS E. GRANT",
-    "horas": 0,
-    "observaciones": "NO HAY DATOS"
-  },
-  {
     "id": "rec-pdf-0167",
     "semana": 31,
     "dia": "jueves",
@@ -2526,17 +2482,6 @@
     "fechaIngreso": "30/7/2026 00:00",
     "fechaSalida": "30/7/2026 00:00",
     "nombre": "ENRIQUE GRANT",
-    "horas": 0,
-    "observaciones": "NO HAY DATOS"
-  },
-  {
-    "id": "rec-pdf-0174",
-    "semana": 31,
-    "dia": "jueves",
-    "predio": "Predio 3",
-    "fechaIngreso": "30/7/2026 00:00",
-    "fechaSalida": "30/7/2026 00:00",
-    "nombre": "LUIS E. GRANT",
     "horas": 0,
     "observaciones": "NO HAY DATOS"
   },
@@ -2552,17 +2497,6 @@
     "observaciones": "NO HAY DATOS"
   },
   {
-    "id": "rec-pdf-0175",
-    "semana": 31,
-    "dia": "viernes",
-    "predio": "Predio 3",
-    "fechaIngreso": "31/7/2026 00:00",
-    "fechaSalida": "31/7/2026 00:00",
-    "nombre": "LUIS E. GRANT",
-    "horas": 0,
-    "observaciones": "NO HAY DATOS"
-  },
-  {
     "id": "rec-pdf-0169",
     "semana": 31,
     "dia": "sábado",
@@ -2570,6 +2504,72 @@
     "fechaIngreso": "1/8/2026 00:00",
     "fechaSalida": "1/8/2026 00:00",
     "nombre": "ENRIQUE GRANT",
+    "horas": 0,
+    "observaciones": "NO HAY DATOS"
+  },
+  {
+    "id": "rec-pdf-0170",
+    "semana": 31,
+    "dia": "domingo",
+    "predio": "Predio 3",
+    "fechaIngreso": "26/7/2026 00:00",
+    "fechaSalida": "26/7/2026 00:00",
+    "nombre": "LUIS E. GRANT",
+    "horas": 0,
+    "observaciones": "NO HAY DATOS"
+  },
+  {
+    "id": "rec-pdf-0171",
+    "semana": 31,
+    "dia": "lunes",
+    "predio": "Predio 3",
+    "fechaIngreso": "27/7/2026 00:00",
+    "fechaSalida": "27/7/2026 00:00",
+    "nombre": "LUIS E. GRANT",
+    "horas": 0,
+    "observaciones": "NO HAY DATOS"
+  },
+  {
+    "id": "rec-pdf-0172",
+    "semana": 31,
+    "dia": "martes",
+    "predio": "Predio 3",
+    "fechaIngreso": "28/7/2026 00:00",
+    "fechaSalida": "28/7/2026 00:00",
+    "nombre": "LUIS E. GRANT",
+    "horas": 0,
+    "observaciones": "NO HAY DATOS"
+  },
+  {
+    "id": "rec-pdf-0173",
+    "semana": 31,
+    "dia": "miércoles",
+    "predio": "Predio 3",
+    "fechaIngreso": "29/7/2026 00:00",
+    "fechaSalida": "29/7/2026 00:00",
+    "nombre": "LUIS E. GRANT",
+    "horas": 0,
+    "observaciones": "NO HAY DATOS"
+  },
+  {
+    "id": "rec-pdf-0174",
+    "semana": 31,
+    "dia": "jueves",
+    "predio": "Predio 3",
+    "fechaIngreso": "30/7/2026 00:00",
+    "fechaSalida": "30/7/2026 00:00",
+    "nombre": "LUIS E. GRANT",
+    "horas": 0,
+    "observaciones": "NO HAY DATOS"
+  },
+  {
+    "id": "rec-pdf-0175",
+    "semana": 31,
+    "dia": "viernes",
+    "predio": "Predio 3",
+    "fechaIngreso": "31/7/2026 00:00",
+    "fechaSalida": "31/7/2026 00:00",
+    "nombre": "LUIS E. GRANT",
     "horas": 0,
     "observaciones": "NO HAY DATOS"
   },
@@ -2596,17 +2596,6 @@
     "observaciones": "LIBRE"
   },
   {
-    "id": "rec-pdf-0153",
-    "semana": 30,
-    "dia": "domingo",
-    "predio": "Predio 3",
-    "fechaIngreso": "19/7/2026 00:00",
-    "fechaSalida": "19/7/2026 00:00",
-    "nombre": "LUIS E. GRANT",
-    "horas": 0,
-    "observaciones": "LIBRE"
-  },
-  {
     "id": "rec-pdf-0145",
     "semana": 30,
     "dia": "lunes",
@@ -2614,17 +2603,6 @@
     "fechaIngreso": "20/7/2026 00:00",
     "fechaSalida": "20/7/2026 00:00",
     "nombre": "ENRIQUE GRANT",
-    "horas": 0,
-    "observaciones": "NO HAY DATOS"
-  },
-  {
-    "id": "rec-pdf-0154",
-    "semana": 30,
-    "dia": "lunes",
-    "predio": "Predio 3",
-    "fechaIngreso": "20/7/2026 00:00",
-    "fechaSalida": "20/7/2026 00:00",
-    "nombre": "LUIS E. GRANT",
     "horas": 0,
     "observaciones": "NO HAY DATOS"
   },
@@ -2637,28 +2615,6 @@
     "fechaSalida": "21/7/2026 13:55",
     "nombre": "ENRIQUE GRANT",
     "horas": 4.77,
-    "observaciones": ""
-  },
-  {
-    "id": "rec-pdf-0155",
-    "semana": 30,
-    "dia": "martes",
-    "predio": "Predio 3",
-    "fechaIngreso": "21/7/2026 07:34",
-    "fechaSalida": "21/7/2026 12:00",
-    "nombre": "LUIS E. GRANT",
-    "horas": 4.43,
-    "observaciones": ""
-  },
-  {
-    "id": "rec-pdf-0156",
-    "semana": 30,
-    "dia": "martes",
-    "predio": "Predio 3",
-    "fechaIngreso": "21/7/2026 13:42",
-    "fechaSalida": "21/7/2026 16:10",
-    "nombre": "LUIS E. GRANT",
-    "horas": 2.47,
     "observaciones": ""
   },
   {
@@ -2684,28 +2640,6 @@
     "observaciones": ""
   },
   {
-    "id": "rec-pdf-0157",
-    "semana": 30,
-    "dia": "miércoles",
-    "predio": "Predio 3",
-    "fechaIngreso": "22/7/2026 08:07",
-    "fechaSalida": "22/7/2026 12:40",
-    "nombre": "LUIS E. GRANT",
-    "horas": 4.55,
-    "observaciones": ""
-  },
-  {
-    "id": "rec-pdf-0158",
-    "semana": 30,
-    "dia": "miércoles",
-    "predio": "Predio 3",
-    "fechaIngreso": "22/7/2026 13:52",
-    "fechaSalida": "22/7/2026 15:21",
-    "nombre": "LUIS E. GRANT",
-    "horas": 1.48,
-    "observaciones": ""
-  },
-  {
     "id": "rec-pdf-0149",
     "semana": 30,
     "dia": "jueves",
@@ -2725,6 +2659,94 @@
     "fechaSalida": "23/7/2026 16:25",
     "nombre": "ENRIQUE GRANT",
     "horas": 2.47,
+    "observaciones": ""
+  },
+  {
+    "id": "rec-pdf-0151",
+    "semana": 30,
+    "dia": "viernes",
+    "predio": "Predio 3",
+    "fechaIngreso": "24/7/2026 08:31",
+    "fechaSalida": "24/7/2026 12:52",
+    "nombre": "ENRIQUE GRANT",
+    "horas": 4.35,
+    "observaciones": ""
+  },
+  {
+    "id": "rec-pdf-0152",
+    "semana": 30,
+    "dia": "sábado",
+    "predio": "Predio 3",
+    "fechaIngreso": "25/7/2026 00:00",
+    "fechaSalida": "25/7/2026 00:00",
+    "nombre": "ENRIQUE GRANT",
+    "horas": 0,
+    "observaciones": "NO HAY DATOS"
+  },
+  {
+    "id": "rec-pdf-0153",
+    "semana": 30,
+    "dia": "domingo",
+    "predio": "Predio 3",
+    "fechaIngreso": "19/7/2026 00:00",
+    "fechaSalida": "19/7/2026 00:00",
+    "nombre": "LUIS E. GRANT",
+    "horas": 0,
+    "observaciones": "LIBRE"
+  },
+  {
+    "id": "rec-pdf-0154",
+    "semana": 30,
+    "dia": "lunes",
+    "predio": "Predio 3",
+    "fechaIngreso": "20/7/2026 00:00",
+    "fechaSalida": "20/7/2026 00:00",
+    "nombre": "LUIS E. GRANT",
+    "horas": 0,
+    "observaciones": "NO HAY DATOS"
+  },
+  {
+    "id": "rec-pdf-0155",
+    "semana": 30,
+    "dia": "martes",
+    "predio": "Predio 3",
+    "fechaIngreso": "21/7/2026 07:34",
+    "fechaSalida": "21/7/2026 12:00",
+    "nombre": "LUIS E. GRANT",
+    "horas": 4.43,
+    "observaciones": ""
+  },
+  {
+    "id": "rec-pdf-0156",
+    "semana": 30,
+    "dia": "martes",
+    "predio": "Predio 3",
+    "fechaIngreso": "21/7/2026 13:42",
+    "fechaSalida": "21/7/2026 16:10",
+    "nombre": "LUIS E. GRANT",
+    "horas": 2.47,
+    "observaciones": ""
+  },
+  {
+    "id": "rec-pdf-0157",
+    "semana": 30,
+    "dia": "miércoles",
+    "predio": "Predio 3",
+    "fechaIngreso": "22/7/2026 08:07",
+    "fechaSalida": "22/7/2026 12:40",
+    "nombre": "LUIS E. GRANT",
+    "horas": 4.55,
+    "observaciones": ""
+  },
+  {
+    "id": "rec-pdf-0158",
+    "semana": 30,
+    "dia": "miércoles",
+    "predio": "Predio 3",
+    "fechaIngreso": "22/7/2026 13:52",
+    "fechaSalida": "22/7/2026 15:21",
+    "nombre": "LUIS E. GRANT",
+    "horas": 1.48,
     "observaciones": ""
   },
   {
@@ -2750,17 +2772,6 @@
     "observaciones": ""
   },
   {
-    "id": "rec-pdf-0151",
-    "semana": 30,
-    "dia": "viernes",
-    "predio": "Predio 3",
-    "fechaIngreso": "24/7/2026 08:31",
-    "fechaSalida": "24/7/2026 12:52",
-    "nombre": "ENRIQUE GRANT",
-    "horas": 4.35,
-    "observaciones": ""
-  },
-  {
     "id": "rec-pdf-0161",
     "semana": 30,
     "dia": "viernes",
@@ -2770,17 +2781,6 @@
     "nombre": "LUIS E. GRANT",
     "horas": 2.93,
     "observaciones": ""
-  },
-  {
-    "id": "rec-pdf-0152",
-    "semana": 30,
-    "dia": "sábado",
-    "predio": "Predio 3",
-    "fechaIngreso": "25/7/2026 00:00",
-    "fechaSalida": "25/7/2026 00:00",
-    "nombre": "ENRIQUE GRANT",
-    "horas": 0,
-    "observaciones": "NO HAY DATOS"
   },
   {
     "id": "rec-pdf-0162",
@@ -2801,17 +2801,6 @@
     "fechaIngreso": "12/7/2026 00:00",
     "fechaSalida": "12/7/2026 00:00",
     "nombre": "ENRIQUE GRANT",
-    "horas": 0,
-    "observaciones": "LIBRE"
-  },
-  {
-    "id": "rec-pdf-0137",
-    "semana": 29,
-    "dia": "domingo",
-    "predio": "Predio 3",
-    "fechaIngreso": "12/7/2026 00:00",
-    "fechaSalida": "12/7/2026 00:00",
-    "nombre": "LUIS E. GRANT",
     "horas": 0,
     "observaciones": "LIBRE"
   },
@@ -2838,17 +2827,6 @@
     "observaciones": ""
   },
   {
-    "id": "rec-pdf-0138",
-    "semana": 29,
-    "dia": "lunes",
-    "predio": "Predio 3",
-    "fechaIngreso": "13/7/2026 00:00",
-    "fechaSalida": "13/7/2026 00:00",
-    "nombre": "LUIS E. GRANT",
-    "horas": 0,
-    "observaciones": "NO HAY DATOS"
-  },
-  {
     "id": "rec-pdf-0131",
     "semana": 29,
     "dia": "martes",
@@ -2858,17 +2836,6 @@
     "nombre": "ENRIQUE GRANT",
     "horas": 2.73,
     "observaciones": ""
-  },
-  {
-    "id": "rec-pdf-0139",
-    "semana": 29,
-    "dia": "martes",
-    "predio": "Predio 3",
-    "fechaIngreso": "14/7/2026 00:00",
-    "fechaSalida": "14/7/2026 00:00",
-    "nombre": "LUIS E. GRANT",
-    "horas": 0,
-    "observaciones": "NO HAY DATOS"
   },
   {
     "id": "rec-pdf-0132",
@@ -2882,17 +2849,6 @@
     "observaciones": ""
   },
   {
-    "id": "rec-pdf-0140",
-    "semana": 29,
-    "dia": "miércoles",
-    "predio": "Predio 3",
-    "fechaIngreso": "15/7/2026 00:00",
-    "fechaSalida": "15/7/2026 00:00",
-    "nombre": "LUIS E. GRANT",
-    "horas": 0,
-    "observaciones": "NO HAY DATOS"
-  },
-  {
     "id": "rec-pdf-0133",
     "semana": 29,
     "dia": "jueves",
@@ -2902,17 +2858,6 @@
     "nombre": "ENRIQUE GRANT",
     "horas": 3.77,
     "observaciones": ""
-  },
-  {
-    "id": "rec-pdf-0141",
-    "semana": 29,
-    "dia": "jueves",
-    "predio": "Predio 3",
-    "fechaIngreso": "16/7/2026 00:00",
-    "fechaSalida": "16/7/2026 00:00",
-    "nombre": "LUIS E. GRANT",
-    "horas": 0,
-    "observaciones": "NO HAY DATOS"
   },
   {
     "id": "rec-pdf-0134",
@@ -2937,17 +2882,6 @@
     "observaciones": ""
   },
   {
-    "id": "rec-pdf-0142",
-    "semana": 29,
-    "dia": "viernes",
-    "predio": "Predio 3",
-    "fechaIngreso": "17/7/2026 00:00",
-    "fechaSalida": "17/7/2026 00:00",
-    "nombre": "LUIS E. GRANT",
-    "horas": 0,
-    "observaciones": "NO HAY DATOS"
-  },
-  {
     "id": "rec-pdf-0136",
     "semana": 29,
     "dia": "sábado",
@@ -2957,6 +2891,72 @@
     "nombre": "ENRIQUE GRANT",
     "horas": 2.52,
     "observaciones": ""
+  },
+  {
+    "id": "rec-pdf-0137",
+    "semana": 29,
+    "dia": "domingo",
+    "predio": "Predio 3",
+    "fechaIngreso": "12/7/2026 00:00",
+    "fechaSalida": "12/7/2026 00:00",
+    "nombre": "LUIS E. GRANT",
+    "horas": 0,
+    "observaciones": "LIBRE"
+  },
+  {
+    "id": "rec-pdf-0138",
+    "semana": 29,
+    "dia": "lunes",
+    "predio": "Predio 3",
+    "fechaIngreso": "13/7/2026 00:00",
+    "fechaSalida": "13/7/2026 00:00",
+    "nombre": "LUIS E. GRANT",
+    "horas": 0,
+    "observaciones": "NO HAY DATOS"
+  },
+  {
+    "id": "rec-pdf-0139",
+    "semana": 29,
+    "dia": "martes",
+    "predio": "Predio 3",
+    "fechaIngreso": "14/7/2026 00:00",
+    "fechaSalida": "14/7/2026 00:00",
+    "nombre": "LUIS E. GRANT",
+    "horas": 0,
+    "observaciones": "NO HAY DATOS"
+  },
+  {
+    "id": "rec-pdf-0140",
+    "semana": 29,
+    "dia": "miércoles",
+    "predio": "Predio 3",
+    "fechaIngreso": "15/7/2026 00:00",
+    "fechaSalida": "15/7/2026 00:00",
+    "nombre": "LUIS E. GRANT",
+    "horas": 0,
+    "observaciones": "NO HAY DATOS"
+  },
+  {
+    "id": "rec-pdf-0141",
+    "semana": 29,
+    "dia": "jueves",
+    "predio": "Predio 3",
+    "fechaIngreso": "16/7/2026 00:00",
+    "fechaSalida": "16/7/2026 00:00",
+    "nombre": "LUIS E. GRANT",
+    "horas": 0,
+    "observaciones": "NO HAY DATOS"
+  },
+  {
+    "id": "rec-pdf-0142",
+    "semana": 29,
+    "dia": "viernes",
+    "predio": "Predio 3",
+    "fechaIngreso": "17/7/2026 00:00",
+    "fechaSalida": "17/7/2026 00:00",
+    "nombre": "LUIS E. GRANT",
+    "horas": 0,
+    "observaciones": "NO HAY DATOS"
   },
   {
     "id": "rec-pdf-0143",
@@ -2981,17 +2981,6 @@
     "observaciones": "LIBRE"
   },
   {
-    "id": "rec-pdf-0121",
-    "semana": 28,
-    "dia": "domingo",
-    "predio": "Predio 3",
-    "fechaIngreso": "5/7/2026 00:00",
-    "fechaSalida": "5/7/2026 00:00",
-    "nombre": "LUIS E. GRANT",
-    "horas": 0,
-    "observaciones": "LIBRE"
-  },
-  {
     "id": "rec-pdf-0111",
     "semana": 28,
     "dia": "lunes",
@@ -2999,17 +2988,6 @@
     "fechaIngreso": "6/7/2026 00:00",
     "fechaSalida": "6/7/2026 00:00",
     "nombre": "ENRIQUE GRANT",
-    "horas": 0,
-    "observaciones": "NO HAY DATOS"
-  },
-  {
-    "id": "rec-pdf-0122",
-    "semana": 28,
-    "dia": "lunes",
-    "predio": "Predio 3",
-    "fechaIngreso": "6/7/2026 00:00",
-    "fechaSalida": "6/7/2026 00:00",
-    "nombre": "LUIS E. GRANT",
     "horas": 0,
     "observaciones": "NO HAY DATOS"
   },
@@ -3036,17 +3014,6 @@
     "observaciones": ""
   },
   {
-    "id": "rec-pdf-0123",
-    "semana": 28,
-    "dia": "martes",
-    "predio": "Predio 3",
-    "fechaIngreso": "7/7/2026 00:00",
-    "fechaSalida": "7/7/2026 00:00",
-    "nombre": "LUIS E. GRANT",
-    "horas": 0,
-    "observaciones": "NO HAY DATOS"
-  },
-  {
     "id": "rec-pdf-0114",
     "semana": 28,
     "dia": "miércoles",
@@ -3069,17 +3036,6 @@
     "observaciones": ""
   },
   {
-    "id": "rec-pdf-0124",
-    "semana": 28,
-    "dia": "miércoles",
-    "predio": "Predio 3",
-    "fechaIngreso": "8/7/2026 00:00",
-    "fechaSalida": "8/7/2026 00:00",
-    "nombre": "LUIS E. GRANT",
-    "horas": 0,
-    "observaciones": "NO HAY DATOS"
-  },
-  {
     "id": "rec-pdf-0116",
     "semana": 28,
     "dia": "jueves",
@@ -3089,17 +3045,6 @@
     "nombre": "ENRIQUE GRANT",
     "horas": 2.85,
     "observaciones": ""
-  },
-  {
-    "id": "rec-pdf-0125",
-    "semana": 28,
-    "dia": "jueves",
-    "predio": "Predio 3",
-    "fechaIngreso": "9/7/2026 00:00",
-    "fechaSalida": "9/7/2026 00:00",
-    "nombre": "LUIS E. GRANT",
-    "horas": 0,
-    "observaciones": "NO HAY DATOS"
   },
   {
     "id": "rec-pdf-0117",
@@ -3124,17 +3069,6 @@
     "observaciones": ""
   },
   {
-    "id": "rec-pdf-0126",
-    "semana": 28,
-    "dia": "viernes",
-    "predio": "Predio 3",
-    "fechaIngreso": "10/7/2026 00:00",
-    "fechaSalida": "10/7/2026 00:00",
-    "nombre": "LUIS E. GRANT",
-    "horas": 0,
-    "observaciones": "NO HAY DATOS"
-  },
-  {
     "id": "rec-pdf-0119",
     "semana": 28,
     "dia": "sábado",
@@ -3155,6 +3089,72 @@
     "nombre": "ENRIQUE GRANT",
     "horas": 0.22,
     "observaciones": ""
+  },
+  {
+    "id": "rec-pdf-0121",
+    "semana": 28,
+    "dia": "domingo",
+    "predio": "Predio 3",
+    "fechaIngreso": "5/7/2026 00:00",
+    "fechaSalida": "5/7/2026 00:00",
+    "nombre": "LUIS E. GRANT",
+    "horas": 0,
+    "observaciones": "LIBRE"
+  },
+  {
+    "id": "rec-pdf-0122",
+    "semana": 28,
+    "dia": "lunes",
+    "predio": "Predio 3",
+    "fechaIngreso": "6/7/2026 00:00",
+    "fechaSalida": "6/7/2026 00:00",
+    "nombre": "LUIS E. GRANT",
+    "horas": 0,
+    "observaciones": "NO HAY DATOS"
+  },
+  {
+    "id": "rec-pdf-0123",
+    "semana": 28,
+    "dia": "martes",
+    "predio": "Predio 3",
+    "fechaIngreso": "7/7/2026 00:00",
+    "fechaSalida": "7/7/2026 00:00",
+    "nombre": "LUIS E. GRANT",
+    "horas": 0,
+    "observaciones": "NO HAY DATOS"
+  },
+  {
+    "id": "rec-pdf-0124",
+    "semana": 28,
+    "dia": "miércoles",
+    "predio": "Predio 3",
+    "fechaIngreso": "8/7/2026 00:00",
+    "fechaSalida": "8/7/2026 00:00",
+    "nombre": "LUIS E. GRANT",
+    "horas": 0,
+    "observaciones": "NO HAY DATOS"
+  },
+  {
+    "id": "rec-pdf-0125",
+    "semana": 28,
+    "dia": "jueves",
+    "predio": "Predio 3",
+    "fechaIngreso": "9/7/2026 00:00",
+    "fechaSalida": "9/7/2026 00:00",
+    "nombre": "LUIS E. GRANT",
+    "horas": 0,
+    "observaciones": "NO HAY DATOS"
+  },
+  {
+    "id": "rec-pdf-0126",
+    "semana": 28,
+    "dia": "viernes",
+    "predio": "Predio 3",
+    "fechaIngreso": "10/7/2026 00:00",
+    "fechaSalida": "10/7/2026 00:00",
+    "nombre": "LUIS E. GRANT",
+    "horas": 0,
+    "observaciones": "NO HAY DATOS"
   },
   {
     "id": "rec-pdf-0127",
@@ -3179,17 +3179,6 @@
     "observaciones": "NO HAY DATOS"
   },
   {
-    "id": "rec-pdf-0092",
-    "semana": 27,
-    "dia": "domingo",
-    "predio": "Predio 3",
-    "fechaIngreso": "28/6/2026 00:00",
-    "fechaSalida": "28/6/2026 00:00",
-    "nombre": "LUIS E. GRANT",
-    "horas": 0,
-    "observaciones": "NO HAY DATOS"
-  },
-  {
     "id": "rec-pdf-0093",
     "semana": 27,
     "dia": "lunes",
@@ -3197,17 +3186,6 @@
     "fechaIngreso": "29/6/2026 00:00",
     "fechaSalida": "29/6/2026 00:00",
     "nombre": "ENRIQUE GRANT",
-    "horas": 0,
-    "observaciones": "NO HAY DATOS"
-  },
-  {
-    "id": "rec-pdf-0094",
-    "semana": 27,
-    "dia": "lunes",
-    "predio": "Predio 3",
-    "fechaIngreso": "29/6/2026 00:00",
-    "fechaSalida": "29/6/2026 00:00",
-    "nombre": "LUIS E. GRANT",
     "horas": 0,
     "observaciones": "NO HAY DATOS"
   },
@@ -3234,28 +3212,6 @@
     "observaciones": ""
   },
   {
-    "id": "rec-pdf-0096",
-    "semana": 27,
-    "dia": "martes",
-    "predio": "Predio 3",
-    "fechaIngreso": "30/6/2026 08:24",
-    "fechaSalida": "30/6/2026 12:25",
-    "nombre": "LUIS E. GRANT",
-    "horas": 4.02,
-    "observaciones": ""
-  },
-  {
-    "id": "rec-pdf-0098",
-    "semana": 27,
-    "dia": "martes",
-    "predio": "Predio 3",
-    "fechaIngreso": "30/6/2026 13:36",
-    "fechaSalida": "30/6/2026 16:38",
-    "nombre": "LUIS E. GRANT",
-    "horas": 3.03,
-    "observaciones": ""
-  },
-  {
     "id": "rec-pdf-0099",
     "semana": 27,
     "dia": "miércoles",
@@ -3275,28 +3231,6 @@
     "fechaSalida": "1/7/2026 15:18",
     "nombre": "ENRIQUE GRANT",
     "horas": 1.67,
-    "observaciones": ""
-  },
-  {
-    "id": "rec-pdf-0100",
-    "semana": 27,
-    "dia": "miércoles",
-    "predio": "Predio 3",
-    "fechaIngreso": "1/7/2026 10:13",
-    "fechaSalida": "1/7/2026 12:08",
-    "nombre": "LUIS E. GRANT",
-    "horas": 1.92,
-    "observaciones": ""
-  },
-  {
-    "id": "rec-pdf-0102",
-    "semana": 27,
-    "dia": "miércoles",
-    "predio": "Predio 3",
-    "fechaIngreso": "1/7/2026 13:37",
-    "fechaSalida": "1/7/2026 16:46",
-    "nombre": "LUIS E. GRANT",
-    "horas": 3.14,
     "observaciones": ""
   },
   {
@@ -3322,17 +3256,6 @@
     "observaciones": ""
   },
   {
-    "id": "rec-pdf-0103",
-    "semana": 27,
-    "dia": "jueves",
-    "predio": "Predio 3",
-    "fechaIngreso": "2/7/2026 00:00",
-    "fechaSalida": "2/7/2026 00:00",
-    "nombre": "LUIS E. GRANT",
-    "horas": 0,
-    "observaciones": "NO HAY DATOS"
-  },
-  {
     "id": "rec-pdf-0107",
     "semana": 27,
     "dia": "viernes",
@@ -3344,17 +3267,6 @@
     "observaciones": ""
   },
   {
-    "id": "rec-pdf-0106",
-    "semana": 27,
-    "dia": "viernes",
-    "predio": "Predio 3",
-    "fechaIngreso": "3/7/2026 00:00",
-    "fechaSalida": "3/7/2026 00:00",
-    "nombre": "LUIS E. GRANT",
-    "horas": 0,
-    "observaciones": "NO HAY DATOS"
-  },
-  {
     "id": "rec-pdf-0108",
     "semana": 27,
     "dia": "sábado",
@@ -3362,6 +3274,94 @@
     "fechaIngreso": "4/7/2026 00:00",
     "fechaSalida": "4/7/2026 00:00",
     "nombre": "ENRIQUE GRANT",
+    "horas": 0,
+    "observaciones": "NO HAY DATOS"
+  },
+  {
+    "id": "rec-pdf-0092",
+    "semana": 27,
+    "dia": "domingo",
+    "predio": "Predio 3",
+    "fechaIngreso": "28/6/2026 00:00",
+    "fechaSalida": "28/6/2026 00:00",
+    "nombre": "LUIS E. GRANT",
+    "horas": 0,
+    "observaciones": "NO HAY DATOS"
+  },
+  {
+    "id": "rec-pdf-0094",
+    "semana": 27,
+    "dia": "lunes",
+    "predio": "Predio 3",
+    "fechaIngreso": "29/6/2026 00:00",
+    "fechaSalida": "29/6/2026 00:00",
+    "nombre": "LUIS E. GRANT",
+    "horas": 0,
+    "observaciones": "NO HAY DATOS"
+  },
+  {
+    "id": "rec-pdf-0096",
+    "semana": 27,
+    "dia": "martes",
+    "predio": "Predio 3",
+    "fechaIngreso": "30/6/2026 08:24",
+    "fechaSalida": "30/6/2026 12:25",
+    "nombre": "LUIS E. GRANT",
+    "horas": 4.02,
+    "observaciones": ""
+  },
+  {
+    "id": "rec-pdf-0098",
+    "semana": 27,
+    "dia": "martes",
+    "predio": "Predio 3",
+    "fechaIngreso": "30/6/2026 13:36",
+    "fechaSalida": "30/6/2026 16:38",
+    "nombre": "LUIS E. GRANT",
+    "horas": 3.03,
+    "observaciones": ""
+  },
+  {
+    "id": "rec-pdf-0100",
+    "semana": 27,
+    "dia": "miércoles",
+    "predio": "Predio 3",
+    "fechaIngreso": "1/7/2026 10:13",
+    "fechaSalida": "1/7/2026 12:08",
+    "nombre": "LUIS E. GRANT",
+    "horas": 1.92,
+    "observaciones": ""
+  },
+  {
+    "id": "rec-pdf-0102",
+    "semana": 27,
+    "dia": "miércoles",
+    "predio": "Predio 3",
+    "fechaIngreso": "1/7/2026 13:37",
+    "fechaSalida": "1/7/2026 16:46",
+    "nombre": "LUIS E. GRANT",
+    "horas": 3.14,
+    "observaciones": ""
+  },
+  {
+    "id": "rec-pdf-0103",
+    "semana": 27,
+    "dia": "jueves",
+    "predio": "Predio 3",
+    "fechaIngreso": "2/7/2026 00:00",
+    "fechaSalida": "2/7/2026 00:00",
+    "nombre": "LUIS E. GRANT",
+    "horas": 0,
+    "observaciones": "NO HAY DATOS"
+  },
+  {
+    "id": "rec-pdf-0106",
+    "semana": 27,
+    "dia": "viernes",
+    "predio": "Predio 3",
+    "fechaIngreso": "3/7/2026 00:00",
+    "fechaSalida": "3/7/2026 00:00",
+    "nombre": "LUIS E. GRANT",
     "horas": 0,
     "observaciones": "NO HAY DATOS"
   },
@@ -3388,17 +3388,6 @@
     "observaciones": "NO HAY DATOS"
   },
   {
-    "id": "rec-pdf-0069",
-    "semana": 26,
-    "dia": "domingo",
-    "predio": "Predio 3",
-    "fechaIngreso": "21/6/2026 00:00",
-    "fechaSalida": "21/6/2026 00:00",
-    "nombre": "LUIS E. GRANT",
-    "horas": 0,
-    "observaciones": "NO HAY DATOS"
-  },
-  {
     "id": "rec-pdf-0071",
     "semana": 26,
     "dia": "lunes",
@@ -3419,17 +3408,6 @@
     "nombre": "ENRIQUE GRANT",
     "horas": 3,
     "observaciones": ""
-  },
-  {
-    "id": "rec-pdf-0070",
-    "semana": 26,
-    "dia": "lunes",
-    "predio": "Predio 3",
-    "fechaIngreso": "22/6/2026 00:00",
-    "fechaSalida": "22/6/2026 00:00",
-    "nombre": "LUIS E. GRANT",
-    "horas": 0,
-    "observaciones": "NO HAY DATOS"
   },
   {
     "id": "rec-pdf-0073",
@@ -3454,28 +3432,6 @@
     "observaciones": ""
   },
   {
-    "id": "rec-pdf-0074",
-    "semana": 26,
-    "dia": "martes",
-    "predio": "Predio 3",
-    "fechaIngreso": "23/6/2026 10:49",
-    "fechaSalida": "23/6/2026 12:10",
-    "nombre": "LUIS E. GRANT",
-    "horas": 1.35,
-    "observaciones": ""
-  },
-  {
-    "id": "rec-pdf-0076",
-    "semana": 26,
-    "dia": "martes",
-    "predio": "Predio 3",
-    "fechaIngreso": "23/6/2026 13:25",
-    "fechaSalida": "23/6/2026 17:20",
-    "nombre": "LUIS E. GRANT",
-    "horas": 3.92,
-    "observaciones": ""
-  },
-  {
     "id": "rec-pdf-0078",
     "semana": 26,
     "dia": "miércoles",
@@ -3494,6 +3450,105 @@
     "fechaIngreso": "24/6/2026 13:20",
     "fechaSalida": "24/6/2026 17:15",
     "nombre": "ENRIQUE GRANT",
+    "horas": 3.92,
+    "observaciones": ""
+  },
+  {
+    "id": "rec-pdf-0081",
+    "semana": 26,
+    "dia": "jueves",
+    "predio": "Predio 3",
+    "fechaIngreso": "25/6/2026 10:00",
+    "fechaSalida": "25/6/2026 12:00",
+    "nombre": "ENRIQUE GRANT",
+    "horas": 2,
+    "observaciones": ""
+  },
+  {
+    "id": "rec-pdf-0084",
+    "semana": 26,
+    "dia": "jueves",
+    "predio": "Predio 3",
+    "fechaIngreso": "25/6/2026 13:41",
+    "fechaSalida": "25/6/2026 15:30",
+    "nombre": "ENRIQUE GRANT",
+    "horas": 1.82,
+    "observaciones": ""
+  },
+  {
+    "id": "rec-pdf-0085",
+    "semana": 26,
+    "dia": "viernes",
+    "predio": "Predio 3",
+    "fechaIngreso": "26/6/2026 09:55",
+    "fechaSalida": "26/6/2026 12:10",
+    "nombre": "ENRIQUE GRANT",
+    "horas": 2.25,
+    "observaciones": ""
+  },
+  {
+    "id": "rec-pdf-0087",
+    "semana": 26,
+    "dia": "viernes",
+    "predio": "Predio 3",
+    "fechaIngreso": "26/6/2026 13:50",
+    "fechaSalida": "26/6/2026 16:10",
+    "nombre": "ENRIQUE GRANT",
+    "horas": 2.33,
+    "observaciones": ""
+  },
+  {
+    "id": "rec-pdf-0089",
+    "semana": 26,
+    "dia": "sábado",
+    "predio": "Predio 3",
+    "fechaIngreso": "27/6/2026 00:00",
+    "fechaSalida": "27/6/2026 00:00",
+    "nombre": "ENRIQUE GRANT",
+    "horas": 0,
+    "observaciones": "NO HAY DATOS"
+  },
+  {
+    "id": "rec-pdf-0069",
+    "semana": 26,
+    "dia": "domingo",
+    "predio": "Predio 3",
+    "fechaIngreso": "21/6/2026 00:00",
+    "fechaSalida": "21/6/2026 00:00",
+    "nombre": "LUIS E. GRANT",
+    "horas": 0,
+    "observaciones": "NO HAY DATOS"
+  },
+  {
+    "id": "rec-pdf-0070",
+    "semana": 26,
+    "dia": "lunes",
+    "predio": "Predio 3",
+    "fechaIngreso": "22/6/2026 00:00",
+    "fechaSalida": "22/6/2026 00:00",
+    "nombre": "LUIS E. GRANT",
+    "horas": 0,
+    "observaciones": "NO HAY DATOS"
+  },
+  {
+    "id": "rec-pdf-0074",
+    "semana": 26,
+    "dia": "martes",
+    "predio": "Predio 3",
+    "fechaIngreso": "23/6/2026 10:49",
+    "fechaSalida": "23/6/2026 12:10",
+    "nombre": "LUIS E. GRANT",
+    "horas": 1.35,
+    "observaciones": ""
+  },
+  {
+    "id": "rec-pdf-0076",
+    "semana": 26,
+    "dia": "martes",
+    "predio": "Predio 3",
+    "fechaIngreso": "23/6/2026 13:25",
+    "fechaSalida": "23/6/2026 17:20",
+    "nombre": "LUIS E. GRANT",
     "horas": 3.92,
     "observaciones": ""
   },
@@ -3520,28 +3575,6 @@
     "observaciones": ""
   },
   {
-    "id": "rec-pdf-0081",
-    "semana": 26,
-    "dia": "jueves",
-    "predio": "Predio 3",
-    "fechaIngreso": "25/6/2026 10:00",
-    "fechaSalida": "25/6/2026 12:00",
-    "nombre": "ENRIQUE GRANT",
-    "horas": 2,
-    "observaciones": ""
-  },
-  {
-    "id": "rec-pdf-0084",
-    "semana": 26,
-    "dia": "jueves",
-    "predio": "Predio 3",
-    "fechaIngreso": "25/6/2026 13:41",
-    "fechaSalida": "25/6/2026 15:30",
-    "nombre": "ENRIQUE GRANT",
-    "horas": 1.82,
-    "observaciones": ""
-  },
-  {
     "id": "rec-pdf-0082",
     "semana": 26,
     "dia": "jueves",
@@ -3561,28 +3594,6 @@
     "fechaSalida": "25/6/2026 17:10",
     "nombre": "LUIS E. GRANT",
     "horas": 3.83,
-    "observaciones": ""
-  },
-  {
-    "id": "rec-pdf-0085",
-    "semana": 26,
-    "dia": "viernes",
-    "predio": "Predio 3",
-    "fechaIngreso": "26/6/2026 09:55",
-    "fechaSalida": "26/6/2026 12:10",
-    "nombre": "ENRIQUE GRANT",
-    "horas": 2.25,
-    "observaciones": ""
-  },
-  {
-    "id": "rec-pdf-0087",
-    "semana": 26,
-    "dia": "viernes",
-    "predio": "Predio 3",
-    "fechaIngreso": "26/6/2026 13:50",
-    "fechaSalida": "26/6/2026 16:10",
-    "nombre": "ENRIQUE GRANT",
-    "horas": 2.33,
     "observaciones": ""
   },
   {
@@ -3608,17 +3619,6 @@
     "observaciones": ""
   },
   {
-    "id": "rec-pdf-0089",
-    "semana": 26,
-    "dia": "sábado",
-    "predio": "Predio 3",
-    "fechaIngreso": "27/6/2026 00:00",
-    "fechaSalida": "27/6/2026 00:00",
-    "nombre": "ENRIQUE GRANT",
-    "horas": 0,
-    "observaciones": "NO HAY DATOS"
-  },
-  {
     "id": "rec-pdf-0090",
     "semana": 26,
     "dia": "sábado",
@@ -3637,17 +3637,6 @@
     "fechaIngreso": "15/6/2026 00:00",
     "fechaSalida": "15/6/2026 00:00",
     "nombre": "ENRIQUE GRANT",
-    "horas": 0,
-    "observaciones": "NO HAY DATOS"
-  },
-  {
-    "id": "rec-pdf-0051",
-    "semana": 25,
-    "dia": "lunes",
-    "predio": "Predio 3",
-    "fechaIngreso": "15/6/2026 00:00",
-    "fechaSalida": "15/6/2026 00:00",
-    "nombre": "LUIS E. GRANT",
     "horas": 0,
     "observaciones": "NO HAY DATOS"
   },
@@ -3674,28 +3663,6 @@
     "observaciones": ""
   },
   {
-    "id": "rec-pdf-0052",
-    "semana": 25,
-    "dia": "martes",
-    "predio": "Predio 3",
-    "fechaIngreso": "16/6/2026 07:54",
-    "fechaSalida": "16/6/2026 12:13",
-    "nombre": "LUIS E. GRANT",
-    "horas": 4.32,
-    "observaciones": ""
-  },
-  {
-    "id": "rec-pdf-0055",
-    "semana": 25,
-    "dia": "martes",
-    "predio": "Predio 3",
-    "fechaIngreso": "16/6/2026 13:29",
-    "fechaSalida": "16/6/2026 16:07",
-    "nombre": "LUIS E. GRANT",
-    "horas": 2.63,
-    "observaciones": ""
-  },
-  {
     "id": "rec-pdf-0056",
     "semana": 25,
     "dia": "miércoles",
@@ -3715,17 +3682,6 @@
     "fechaSalida": "17/6/2026 16:22",
     "nombre": "ENRIQUE GRANT",
     "horas": 3.23,
-    "observaciones": ""
-  },
-  {
-    "id": "rec-pdf-0058",
-    "semana": 25,
-    "dia": "miércoles",
-    "predio": "Predio 3",
-    "fechaIngreso": "17/6/2026 13:55",
-    "fechaSalida": "17/6/2026 16:52",
-    "nombre": "LUIS E. GRANT",
-    "horas": 2.95,
     "observaciones": ""
   },
   {
@@ -3751,28 +3707,6 @@
     "observaciones": ""
   },
   {
-    "id": "rec-pdf-0060",
-    "semana": 25,
-    "dia": "jueves",
-    "predio": "Predio 3",
-    "fechaIngreso": "18/6/2026 10:12",
-    "fechaSalida": "18/6/2026 12:15",
-    "nombre": "LUIS E. GRANT",
-    "horas": 2.06,
-    "observaciones": ""
-  },
-  {
-    "id": "rec-pdf-0062",
-    "semana": 25,
-    "dia": "jueves",
-    "predio": "Predio 3",
-    "fechaIngreso": "18/6/2026 13:20",
-    "fechaSalida": "18/6/2026 16:00",
-    "nombre": "LUIS E. GRANT",
-    "horas": 2.67,
-    "observaciones": ""
-  },
-  {
     "id": "rec-pdf-0063",
     "semana": 25,
     "dia": "viernes",
@@ -3795,17 +3729,6 @@
     "observaciones": ""
   },
   {
-    "id": "rec-pdf-0065",
-    "semana": 25,
-    "dia": "viernes",
-    "predio": "Predio 3",
-    "fechaIngreso": "19/6/2026 12:44",
-    "fechaSalida": "19/6/2026 16:43",
-    "nombre": "LUIS E. GRANT",
-    "horas": 3.99,
-    "observaciones": ""
-  },
-  {
     "id": "rec-pdf-0066",
     "semana": 25,
     "dia": "sábado",
@@ -3815,6 +3738,83 @@
     "nombre": "ENRIQUE GRANT",
     "horas": 0,
     "observaciones": "NO HAY DATOS"
+  },
+  {
+    "id": "rec-pdf-0051",
+    "semana": 25,
+    "dia": "lunes",
+    "predio": "Predio 3",
+    "fechaIngreso": "15/6/2026 00:00",
+    "fechaSalida": "15/6/2026 00:00",
+    "nombre": "LUIS E. GRANT",
+    "horas": 0,
+    "observaciones": "NO HAY DATOS"
+  },
+  {
+    "id": "rec-pdf-0052",
+    "semana": 25,
+    "dia": "martes",
+    "predio": "Predio 3",
+    "fechaIngreso": "16/6/2026 07:54",
+    "fechaSalida": "16/6/2026 12:13",
+    "nombre": "LUIS E. GRANT",
+    "horas": 4.32,
+    "observaciones": ""
+  },
+  {
+    "id": "rec-pdf-0055",
+    "semana": 25,
+    "dia": "martes",
+    "predio": "Predio 3",
+    "fechaIngreso": "16/6/2026 13:29",
+    "fechaSalida": "16/6/2026 16:07",
+    "nombre": "LUIS E. GRANT",
+    "horas": 2.63,
+    "observaciones": ""
+  },
+  {
+    "id": "rec-pdf-0058",
+    "semana": 25,
+    "dia": "miércoles",
+    "predio": "Predio 3",
+    "fechaIngreso": "17/6/2026 13:55",
+    "fechaSalida": "17/6/2026 16:52",
+    "nombre": "LUIS E. GRANT",
+    "horas": 2.95,
+    "observaciones": ""
+  },
+  {
+    "id": "rec-pdf-0060",
+    "semana": 25,
+    "dia": "jueves",
+    "predio": "Predio 3",
+    "fechaIngreso": "18/6/2026 10:12",
+    "fechaSalida": "18/6/2026 12:15",
+    "nombre": "LUIS E. GRANT",
+    "horas": 2.06,
+    "observaciones": ""
+  },
+  {
+    "id": "rec-pdf-0062",
+    "semana": 25,
+    "dia": "jueves",
+    "predio": "Predio 3",
+    "fechaIngreso": "18/6/2026 13:20",
+    "fechaSalida": "18/6/2026 16:00",
+    "nombre": "LUIS E. GRANT",
+    "horas": 2.67,
+    "observaciones": ""
+  },
+  {
+    "id": "rec-pdf-0065",
+    "semana": 25,
+    "dia": "viernes",
+    "predio": "Predio 3",
+    "fechaIngreso": "19/6/2026 12:44",
+    "fechaSalida": "19/6/2026 16:43",
+    "nombre": "LUIS E. GRANT",
+    "horas": 3.99,
+    "observaciones": ""
   },
   {
     "id": "rec-pdf-0067",
@@ -3835,17 +3835,6 @@
     "fechaIngreso": "7/6/2026 00:00",
     "fechaSalida": "7/6/2026 00:00",
     "nombre": "ENRIQUE GRANT",
-    "horas": 0,
-    "observaciones": "LIBRE"
-  },
-  {
-    "id": "rec-pdf-0023",
-    "semana": 24,
-    "dia": "domingo",
-    "predio": "Predio 3",
-    "fechaIngreso": "7/6/2026 00:00",
-    "fechaSalida": "7/6/2026 00:00",
-    "nombre": "LUIS E. GRANT",
     "horas": 0,
     "observaciones": "LIBRE"
   },
@@ -3872,17 +3861,6 @@
     "observaciones": ""
   },
   {
-    "id": "rec-pdf-0024",
-    "semana": 24,
-    "dia": "lunes",
-    "predio": "Predio 3",
-    "fechaIngreso": "8/6/2026 00:00",
-    "fechaSalida": "8/6/2026 00:00",
-    "nombre": "LUIS E. GRANT",
-    "horas": 0,
-    "observaciones": "NO HAY DATOS"
-  },
-  {
     "id": "rec-pdf-0027",
     "semana": 24,
     "dia": "martes",
@@ -3902,28 +3880,6 @@
     "fechaSalida": "9/6/2026 17:12",
     "nombre": "ENRIQUE GRANT",
     "horas": 3.68,
-    "observaciones": ""
-  },
-  {
-    "id": "rec-pdf-0028",
-    "semana": 24,
-    "dia": "martes",
-    "predio": "Predio 3",
-    "fechaIngreso": "9/6/2026 09:15",
-    "fechaSalida": "9/6/2026 12:04",
-    "nombre": "LUIS E. GRANT",
-    "horas": 2.82,
-    "observaciones": ""
-  },
-  {
-    "id": "rec-pdf-0030",
-    "semana": 24,
-    "dia": "martes",
-    "predio": "Predio 3",
-    "fechaIngreso": "9/6/2026 14:00",
-    "fechaSalida": "9/6/2026 17:12",
-    "nombre": "LUIS E. GRANT",
-    "horas": 3.22,
     "observaciones": ""
   },
   {
@@ -3971,39 +3927,6 @@
     "observaciones": ""
   },
   {
-    "id": "rec-pdf-0032",
-    "semana": 24,
-    "dia": "miércoles",
-    "predio": "Predio 3",
-    "fechaIngreso": "10/6/2026 09:18",
-    "fechaSalida": "10/6/2026 09:27",
-    "nombre": "LUIS E. GRANT",
-    "horas": 0.16,
-    "observaciones": ""
-  },
-  {
-    "id": "rec-pdf-0033",
-    "semana": 24,
-    "dia": "miércoles",
-    "predio": "Predio 3",
-    "fechaIngreso": "10/6/2026 09:30",
-    "fechaSalida": "10/6/2026 12:00",
-    "nombre": "LUIS E. GRANT",
-    "horas": 2.49,
-    "observaciones": ""
-  },
-  {
-    "id": "rec-pdf-0037",
-    "semana": 24,
-    "dia": "miércoles",
-    "predio": "Predio 3",
-    "fechaIngreso": "10/6/2026 13:19",
-    "fechaSalida": "10/6/2026 16:30",
-    "nombre": "LUIS E. GRANT",
-    "horas": 3.17,
-    "observaciones": ""
-  },
-  {
     "id": "rec-pdf-0038",
     "semana": 24,
     "dia": "jueves",
@@ -4048,28 +3971,6 @@
     "observaciones": ""
   },
   {
-    "id": "rec-pdf-0040",
-    "semana": 24,
-    "dia": "jueves",
-    "predio": "Predio 3",
-    "fechaIngreso": "11/6/2026 10:50",
-    "fechaSalida": "11/6/2026 12:59",
-    "nombre": "LUIS E. GRANT",
-    "horas": 2.16,
-    "observaciones": ""
-  },
-  {
-    "id": "rec-pdf-0043",
-    "semana": 24,
-    "dia": "jueves",
-    "predio": "Predio 3",
-    "fechaIngreso": "11/6/2026 14:00",
-    "fechaSalida": "11/6/2026 19:20",
-    "nombre": "LUIS E. GRANT",
-    "horas": 5.33,
-    "observaciones": ""
-  },
-  {
     "id": "rec-pdf-0044",
     "semana": 24,
     "dia": "viernes",
@@ -4089,6 +3990,116 @@
     "fechaSalida": "12/6/2026 17:13",
     "nombre": "ENRIQUE GRANT",
     "horas": 3.64,
+    "observaciones": ""
+  },
+  {
+    "id": "rec-pdf-0049",
+    "semana": 24,
+    "dia": "sábado",
+    "predio": "Predio 3",
+    "fechaIngreso": "13/6/2026 09:35",
+    "fechaSalida": "13/6/2026 11:34",
+    "nombre": "ENRIQUE GRANT",
+    "horas": 1.98,
+    "observaciones": ""
+  },
+  {
+    "id": "rec-pdf-0023",
+    "semana": 24,
+    "dia": "domingo",
+    "predio": "Predio 3",
+    "fechaIngreso": "7/6/2026 00:00",
+    "fechaSalida": "7/6/2026 00:00",
+    "nombre": "LUIS E. GRANT",
+    "horas": 0,
+    "observaciones": "LIBRE"
+  },
+  {
+    "id": "rec-pdf-0024",
+    "semana": 24,
+    "dia": "lunes",
+    "predio": "Predio 3",
+    "fechaIngreso": "8/6/2026 00:00",
+    "fechaSalida": "8/6/2026 00:00",
+    "nombre": "LUIS E. GRANT",
+    "horas": 0,
+    "observaciones": "NO HAY DATOS"
+  },
+  {
+    "id": "rec-pdf-0028",
+    "semana": 24,
+    "dia": "martes",
+    "predio": "Predio 3",
+    "fechaIngreso": "9/6/2026 09:15",
+    "fechaSalida": "9/6/2026 12:04",
+    "nombre": "LUIS E. GRANT",
+    "horas": 2.82,
+    "observaciones": ""
+  },
+  {
+    "id": "rec-pdf-0030",
+    "semana": 24,
+    "dia": "martes",
+    "predio": "Predio 3",
+    "fechaIngreso": "9/6/2026 14:00",
+    "fechaSalida": "9/6/2026 17:12",
+    "nombre": "LUIS E. GRANT",
+    "horas": 3.22,
+    "observaciones": ""
+  },
+  {
+    "id": "rec-pdf-0032",
+    "semana": 24,
+    "dia": "miércoles",
+    "predio": "Predio 3",
+    "fechaIngreso": "10/6/2026 09:18",
+    "fechaSalida": "10/6/2026 09:27",
+    "nombre": "LUIS E. GRANT",
+    "horas": 0.16,
+    "observaciones": ""
+  },
+  {
+    "id": "rec-pdf-0033",
+    "semana": 24,
+    "dia": "miércoles",
+    "predio": "Predio 3",
+    "fechaIngreso": "10/6/2026 09:30",
+    "fechaSalida": "10/6/2026 12:00",
+    "nombre": "LUIS E. GRANT",
+    "horas": 2.49,
+    "observaciones": ""
+  },
+  {
+    "id": "rec-pdf-0037",
+    "semana": 24,
+    "dia": "miércoles",
+    "predio": "Predio 3",
+    "fechaIngreso": "10/6/2026 13:19",
+    "fechaSalida": "10/6/2026 16:30",
+    "nombre": "LUIS E. GRANT",
+    "horas": 3.17,
+    "observaciones": ""
+  },
+  {
+    "id": "rec-pdf-0040",
+    "semana": 24,
+    "dia": "jueves",
+    "predio": "Predio 3",
+    "fechaIngreso": "11/6/2026 10:50",
+    "fechaSalida": "11/6/2026 12:59",
+    "nombre": "LUIS E. GRANT",
+    "horas": 2.16,
+    "observaciones": ""
+  },
+  {
+    "id": "rec-pdf-0043",
+    "semana": 24,
+    "dia": "jueves",
+    "predio": "Predio 3",
+    "fechaIngreso": "11/6/2026 14:00",
+    "fechaSalida": "11/6/2026 19:20",
+    "nombre": "LUIS E. GRANT",
+    "horas": 5.33,
     "observaciones": ""
   },
   {
@@ -4114,17 +4125,6 @@
     "observaciones": ""
   },
   {
-    "id": "rec-pdf-0049",
-    "semana": 24,
-    "dia": "sábado",
-    "predio": "Predio 3",
-    "fechaIngreso": "13/6/2026 09:35",
-    "fechaSalida": "13/6/2026 11:34",
-    "nombre": "ENRIQUE GRANT",
-    "horas": 1.98,
-    "observaciones": ""
-  },
-  {
     "id": "rec-pdf-0048",
     "semana": 24,
     "dia": "sábado",
@@ -4143,17 +4143,6 @@
     "fechaIngreso": "1/6/2026 00:00",
     "fechaSalida": "1/6/2026 00:00",
     "nombre": "ENRIQUE GRANT",
-    "horas": 0,
-    "observaciones": "NO HAY DATOS"
-  },
-  {
-    "id": "rec-pdf-0002",
-    "semana": 23,
-    "dia": "lunes",
-    "predio": "Predio 3",
-    "fechaIngreso": "1/6/2026 00:00",
-    "fechaSalida": "1/6/2026 00:00",
-    "nombre": "LUIS E. GRANT",
     "horas": 0,
     "observaciones": "NO HAY DATOS"
   },
@@ -4180,17 +4169,6 @@
     "observaciones": ""
   },
   {
-    "id": "rec-pdf-0014",
-    "semana": 23,
-    "dia": "martes",
-    "predio": "Predio 3",
-    "fechaIngreso": "2/6/2026 09:34",
-    "fechaSalida": "2/6/2026 17:19",
-    "nombre": "LUIS E. GRANT",
-    "horas": 7.75,
-    "observaciones": ""
-  },
-  {
     "id": "rec-pdf-0018",
     "semana": 23,
     "dia": "miércoles",
@@ -4213,28 +4191,6 @@
     "observaciones": ""
   },
   {
-    "id": "rec-pdf-0017",
-    "semana": 23,
-    "dia": "miércoles",
-    "predio": "Predio 3",
-    "fechaIngreso": "3/6/2026 08:28",
-    "fechaSalida": "3/6/2026 12:09",
-    "nombre": "LUIS E. GRANT",
-    "horas": 3.68,
-    "observaciones": ""
-  },
-  {
-    "id": "rec-pdf-0020",
-    "semana": 23,
-    "dia": "miércoles",
-    "predio": "Predio 3",
-    "fechaIngreso": "3/6/2026 13:25",
-    "fechaSalida": "3/6/2026 19:06",
-    "nombre": "LUIS E. GRANT",
-    "horas": 5.68,
-    "observaciones": ""
-  },
-  {
     "id": "rec-pdf-0003",
     "semana": 23,
     "dia": "jueves",
@@ -4243,6 +4199,17 @@
     "fechaSalida": "4/6/2026 09:12",
     "nombre": "ENRIQUE GRANT",
     "horas": 0.21,
+    "observaciones": ""
+  },
+  {
+    "id": "rec-pdf-0021",
+    "semana": 23,
+    "dia": "jueves",
+    "predio": "Predio 3",
+    "fechaIngreso": "4/6/2026 08:59",
+    "fechaSalida": "4/6/2026 09:12",
+    "nombre": "ENRIQUE GRANT",
+    "horas": 0.22,
     "observaciones": ""
   },
   {
@@ -4268,14 +4235,80 @@
     "observaciones": ""
   },
   {
-    "id": "rec-pdf-0021",
+    "id": "rec-pdf-0009",
     "semana": 23,
-    "dia": "jueves",
+    "dia": "viernes",
     "predio": "Predio 3",
-    "fechaIngreso": "4/6/2026 08:59",
-    "fechaSalida": "4/6/2026 09:12",
+    "fechaIngreso": "5/6/2026 09:03",
+    "fechaSalida": "5/6/2026 12:24",
     "nombre": "ENRIQUE GRANT",
-    "horas": 0.22,
+    "horas": 3.34,
+    "observaciones": ""
+  },
+  {
+    "id": "rec-pdf-0010",
+    "semana": 23,
+    "dia": "viernes",
+    "predio": "Predio 3",
+    "fechaIngreso": "5/6/2026 13:43",
+    "fechaSalida": "5/6/2026 17:11",
+    "nombre": "ENRIQUE GRANT",
+    "horas": 3.48,
+    "observaciones": ""
+  },
+  {
+    "id": "rec-pdf-0013",
+    "semana": 23,
+    "dia": "sábado",
+    "predio": "Predio 3",
+    "fechaIngreso": "6/6/2026 08:57",
+    "fechaSalida": "6/6/2026 11:49",
+    "nombre": "ENRIQUE GRANT",
+    "horas": 2.86,
+    "observaciones": ""
+  },
+  {
+    "id": "rec-pdf-0002",
+    "semana": 23,
+    "dia": "lunes",
+    "predio": "Predio 3",
+    "fechaIngreso": "1/6/2026 00:00",
+    "fechaSalida": "1/6/2026 00:00",
+    "nombre": "LUIS E. GRANT",
+    "horas": 0,
+    "observaciones": "NO HAY DATOS"
+  },
+  {
+    "id": "rec-pdf-0014",
+    "semana": 23,
+    "dia": "martes",
+    "predio": "Predio 3",
+    "fechaIngreso": "2/6/2026 09:34",
+    "fechaSalida": "2/6/2026 17:19",
+    "nombre": "LUIS E. GRANT",
+    "horas": 7.75,
+    "observaciones": ""
+  },
+  {
+    "id": "rec-pdf-0017",
+    "semana": 23,
+    "dia": "miércoles",
+    "predio": "Predio 3",
+    "fechaIngreso": "3/6/2026 08:28",
+    "fechaSalida": "3/6/2026 12:09",
+    "nombre": "LUIS E. GRANT",
+    "horas": 3.68,
+    "observaciones": ""
+  },
+  {
+    "id": "rec-pdf-0020",
+    "semana": 23,
+    "dia": "miércoles",
+    "predio": "Predio 3",
+    "fechaIngreso": "3/6/2026 13:25",
+    "fechaSalida": "3/6/2026 19:06",
+    "nombre": "LUIS E. GRANT",
+    "horas": 5.68,
     "observaciones": ""
   },
   {
@@ -4301,28 +4334,6 @@
     "observaciones": ""
   },
   {
-    "id": "rec-pdf-0009",
-    "semana": 23,
-    "dia": "viernes",
-    "predio": "Predio 3",
-    "fechaIngreso": "5/6/2026 09:03",
-    "fechaSalida": "5/6/2026 12:24",
-    "nombre": "ENRIQUE GRANT",
-    "horas": 3.34,
-    "observaciones": ""
-  },
-  {
-    "id": "rec-pdf-0010",
-    "semana": 23,
-    "dia": "viernes",
-    "predio": "Predio 3",
-    "fechaIngreso": "5/6/2026 13:43",
-    "fechaSalida": "5/6/2026 17:11",
-    "nombre": "ENRIQUE GRANT",
-    "horas": 3.48,
-    "observaciones": ""
-  },
-  {
     "id": "rec-pdf-0008",
     "semana": 23,
     "dia": "viernes",
@@ -4342,17 +4353,6 @@
     "fechaSalida": "5/6/2026 16:12",
     "nombre": "LUIS E. GRANT",
     "horas": 2.49,
-    "observaciones": ""
-  },
-  {
-    "id": "rec-pdf-0013",
-    "semana": 23,
-    "dia": "sábado",
-    "predio": "Predio 3",
-    "fechaIngreso": "6/6/2026 08:57",
-    "fechaSalida": "6/6/2026 11:49",
-    "nombre": "ENRIQUE GRANT",
-    "horas": 2.86,
     "observaciones": ""
   },
   {

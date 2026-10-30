@@ -200,11 +200,70 @@ export function pairDetectionsIntoRecords(detections: RawDetection[]): VehicleRe
     }
   }
 
-  // Sort by week, then date
-  return records.sort((a, b) => {
-    if (a.semana !== b.semana) return a.semana - b.semana;
-    const dateA = parseExcelDateTime(a.fechaIngreso)?.getTime() || 0;
-    const dateB = parseExcelDateTime(b.fechaIngreso)?.getTime() || 0;
-    return dateA - dateB;
+  // Sort by week descending, then employee, then chronological timestamp
+  return sortAttendanceRecords(records);
+}
+
+/**
+ * Extract an exact millisecond timestamp from "D/M/YYYY HH:MM" or "DD/MM/YYYY HH:MM"
+ */
+export function getRecordTimestamp(fechaStr: string): number {
+  if (!fechaStr) return 0;
+  try {
+    const [datePart, timePart] = fechaStr.trim().split(' ');
+    if (!datePart || !datePart.includes('/')) return 0;
+    const [d, m, y] = datePart.split('/').map(Number);
+    if (!d || !m || !y) return 0;
+
+    let hours = 0;
+    let minutes = 0;
+    if (timePart && timePart.includes(':') && !timePart.includes('--')) {
+      const [h, min] = timePart.split(':').map(Number);
+      if (!isNaN(h)) hours = h;
+      if (!isNaN(min)) minutes = min;
+    }
+    return new Date(y, m - 1, d, hours, minutes, 0).getTime();
+  } catch {
+    return 0;
+  }
+}
+
+/**
+ * Standard sorter for Attendance Records:
+ * 1. Semanas ordenadas de mayor a menor (ej: 44, 43, 42 ... 23)
+ * 2. Empleados agrupados (ENRIQUE GRANT primero, luego LUIS E. GRANT)
+ * 3. Dentro de cada semana y empleado: estrictamente cronológico por fecha y hora
+ *    (Domingo -> Lunes -> Martes -> Miércoles -> Jueves -> Viernes -> Sábado)
+ * 4. En el mismo día con varias entradas: por hora de ingreso ascendente (ej. 09:00 antes de 13:30)
+ */
+export function sortAttendanceRecords(records: VehicleRecord[]): VehicleRecord[] {
+  return [...records].sort((a, b) => {
+    // 1. Semana: de mayor a menor (44, 43, 42...)
+    if (b.semana !== a.semana) {
+      return b.semana - a.semana;
+    }
+
+    // 2. Empleado: mantener agrupado
+    if (a.nombre !== b.nombre) {
+      return a.nombre.localeCompare(b.nombre);
+    }
+
+    // 3. Fecha y hora cronológica (más temprano antes de más tarde)
+    const timeA = getRecordTimestamp(a.fechaIngreso);
+    const timeB = getRecordTimestamp(b.fechaIngreso);
+    if (timeA !== timeB) {
+      return timeA - timeB;
+    }
+
+    // 4. Si empatan en hora de ingreso, ordenar por hora de salida
+    const outA = getRecordTimestamp(a.fechaSalida);
+    const outB = getRecordTimestamp(b.fechaSalida);
+    if (outA !== outB) {
+      return outA - outB;
+    }
+
+    // 5. Desempate por predio o id
+    return (a.predio || '').localeCompare(b.predio || '');
   });
 }
+

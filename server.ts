@@ -18,7 +18,7 @@ app.use(express.json({ limit: '50mb' }));
 app.use(express.urlencoded({ extended: true, limit: '50mb' }));
 
 // Persistent Storage File for Attendance Records
-const DATA_DIR = path.resolve(__dirname, 'data');
+const DATA_DIR = path.resolve(process.cwd(), 'data');
 const DATA_FILE = path.resolve(DATA_DIR, 'attendance_database.json');
 
 if (!fs.existsSync(DATA_DIR)) {

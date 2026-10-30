@@ -18,29 +18,38 @@ export const StatsCards: React.FC<StatsCardsProps> = ({
   onFilterPending,
   statusFilter,
 }) => {
-  // Filter for metrics calculations
-  const filteredRecords = records.filter((r) => {
-    if (selectedWeek !== 'all' && r.semana !== selectedWeek) return false;
-    if (selectedDriver !== 'all' && r.nombre !== selectedDriver) return false;
-    return true;
-  });
+  // Calculate records for the selected week (or all if 'all')
+  const weekRecords =
+    selectedWeek === 'all' ? records : records.filter((r) => r.semana === selectedWeek);
 
-  const enriqueHours = filteredRecords
+  // Enrique Grant hours (always calculated regardless of table driver tab)
+  const enriqueHoursWeek = weekRecords
     .filter((r) => r.nombre === 'ENRIQUE GRANT')
-    .reduce((acc, r) => acc + (r.horas || 0), 0);
+    .reduce((acc, r) => acc + (Number(r.horas) || 0), 0);
 
-  const luisHours = filteredRecords
+  const enriqueHoursTotal = records
+    .filter((r) => r.nombre === 'ENRIQUE GRANT')
+    .reduce((acc, r) => acc + (Number(r.horas) || 0), 0);
+
+  // Luis E. Grant hours (always calculated regardless of table driver tab)
+  const luisHoursWeek = weekRecords
     .filter((r) => r.nombre === 'LUIS E. GRANT')
-    .reduce((acc, r) => acc + (r.horas || 0), 0);
+    .reduce((acc, r) => acc + (Number(r.horas) || 0), 0);
 
-  const totalHours = enriqueHours + luisHours;
+  const luisHoursTotal = records
+    .filter((r) => r.nombre === 'LUIS E. GRANT')
+    .reduce((acc, r) => acc + (Number(r.horas) || 0), 0);
+
+  // Total hours
+  const totalHoursWeek = enriqueHoursWeek + luisHoursWeek;
+  const totalHoursAll = enriqueHoursTotal + luisHoursTotal;
 
   const pendingRecords = records.filter(
     (r) => r.observaciones && r.observaciones.toLowerCase().includes('pendiente')
   );
 
-  const tripsWithHours = filteredRecords.filter((r) => (r.horas || 0) > 0).length;
-  const noDataRows = filteredRecords.filter((r) => r.observaciones === 'NO HAY DATOS').length;
+  const tripsWithHours = weekRecords.filter((r) => (Number(r.horas) || 0) > 0).length;
+  const noDataRows = weekRecords.filter((r) => r.observaciones === 'NO HAY DATOS').length;
 
   return (
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-6">
@@ -55,20 +64,22 @@ export const StatsCards: React.FC<StatsCardsProps> = ({
             </span>
           </div>
           <span className="text-[10px] uppercase font-semibold px-2 py-0.5 rounded bg-sky-100 text-sky-700">
-            Empleado
+            {selectedWeek === 'all' ? 'Total Histórico' : `Semana ${selectedWeek}`}
           </span>
         </div>
         <div className="mt-3 flex items-baseline gap-2">
           <span className="text-2xl font-black tracking-tight text-slate-800">
-            {formatDecimalHours(enriqueHours)}
+            {formatDecimalHours(enriqueHoursWeek)}
           </span>
           <span className="text-xs font-semibold text-slate-500">Horas laboradas</span>
         </div>
         <div className="mt-2 text-xs text-slate-600 flex items-center justify-between">
-          <span>{filteredRecords.filter((r) => r.nombre === 'ENRIQUE GRANT' && r.horas > 0).length} registros</span>
-          <span className="text-sky-700 font-medium">
-            {selectedWeek === 'all' ? 'Histórico' : `Semana ${selectedWeek}`}
-          </span>
+          <span>{weekRecords.filter((r) => r.nombre === 'ENRIQUE GRANT' && (Number(r.horas) || 0) > 0).length} registros con horas</span>
+          {selectedWeek !== 'all' && (
+            <span className="text-sky-700 font-medium text-[11px]" title="Total acumulado en todas las semanas">
+              Total: {formatDecimalHours(enriqueHoursTotal)} hrs
+            </span>
+          )}
         </div>
       </div>
 
@@ -83,20 +94,22 @@ export const StatsCards: React.FC<StatsCardsProps> = ({
             </span>
           </div>
           <span className="text-[10px] uppercase font-semibold px-2 py-0.5 rounded bg-purple-100 text-purple-700">
-            Empleado
+            {selectedWeek === 'all' ? 'Total Histórico' : `Semana ${selectedWeek}`}
           </span>
         </div>
         <div className="mt-3 flex items-baseline gap-2">
           <span className="text-2xl font-black tracking-tight text-slate-800">
-            {formatDecimalHours(luisHours)}
+            {formatDecimalHours(luisHoursWeek)}
           </span>
           <span className="text-xs font-semibold text-slate-500">Horas laboradas</span>
         </div>
         <div className="mt-2 text-xs text-slate-600 flex items-center justify-between">
-          <span>{filteredRecords.filter((r) => r.nombre === 'LUIS E. GRANT' && r.horas > 0).length} turnos</span>
-          <span className="text-purple-700 font-medium">
-            {selectedWeek === 'all' ? 'Histórico' : `Semana ${selectedWeek}`}
-          </span>
+          <span>{weekRecords.filter((r) => r.nombre === 'LUIS E. GRANT' && (Number(r.horas) || 0) > 0).length} turnos con horas</span>
+          {selectedWeek !== 'all' && (
+            <span className="text-purple-700 font-medium text-[11px]" title="Total acumulado en todas las semanas">
+              Total: {formatDecimalHours(luisHoursTotal)} hrs
+            </span>
+          )}
         </div>
       </div>
 
@@ -110,13 +123,19 @@ export const StatsCards: React.FC<StatsCardsProps> = ({
         </div>
         <div className="mt-3 flex items-baseline gap-2">
           <span className="text-2xl font-black tracking-tight text-emerald-700">
-            {formatDecimalHours(totalHours)}
+            {formatDecimalHours(totalHoursWeek)}
           </span>
           <span className="text-xs font-semibold text-slate-500">Horas registradas</span>
         </div>
         <div className="mt-2 text-xs text-slate-600 flex items-center justify-between">
           <span>{tripsWithHours} turnos efectivos</span>
-          <span className="text-slate-500">{noDataRows} filas sin datos</span>
+          {selectedWeek !== 'all' ? (
+            <span className="text-emerald-800 font-bold text-[11px]">
+              Global: {formatDecimalHours(totalHoursAll)} hrs
+            </span>
+          ) : (
+            <span className="text-slate-500">{noDataRows} filas sin datos</span>
+          )}
         </div>
       </div>
 

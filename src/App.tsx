@@ -9,7 +9,7 @@ import { RecordModal } from './components/RecordModal';
 import { ReferenceViewer } from './components/ReferenceViewer';
 import { AbsenceModal } from './components/AbsenceModal';
 import { exportToXLSX, exportToCSV, copyForGoogleSheets, generateWeeklyFill } from './utils/excelExporter';
-import { getWeekNumber, getSpanishDay } from './utils/dateUtils';
+import { getWeekNumber, getSpanishDay, sortAttendanceRecords } from './utils/dateUtils';
 import {
   FileSpreadsheet,
   Upload,
@@ -43,13 +43,13 @@ export default function App() {
         const saved = localStorage.getItem(k);
         if (saved) {
           const parsed = JSON.parse(saved);
-          if (Array.isArray(parsed) && parsed.length > 0) return parsed;
+          if (Array.isArray(parsed) && parsed.length > 0) return sortAttendanceRecords(parsed);
         }
       }
     } catch (e) {
       console.error('Error reading localStorage', e);
     }
-    return INITIAL_VEHICLE_RECORDS;
+    return sortAttendanceRecords(INITIAL_VEHICLE_RECORDS);
   });
 
   // Filters state - Por defecto inicia en la semana actual (44)
@@ -76,8 +76,21 @@ export default function App() {
     fetch('/api/records')
       .then((res) => res.json())
       .then((data) => {
-        if (isMounted && data.success && Array.isArray(data.records) && data.records.length > 0) {
-          setRecords(data.records);
+        if (!isMounted) return;
+        if (data.success && Array.isArray(data.records) && data.records.length > 0) {
+          setRecords((currentLocal) => {
+            // Never overwrite if user has more/newer records locally
+            if (currentLocal && currentLocal.length > data.records.length) {
+              const sortedLocal = sortAttendanceRecords(currentLocal);
+              fetch('/api/records', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ records: sortedLocal }),
+              }).catch(() => {});
+              return sortedLocal;
+            }
+            return sortAttendanceRecords(data.records);
+          });
           try {
             localStorage.setItem('control_asistencia_grants_records_v4', JSON.stringify(data.records));
           } catch (e) {}
@@ -180,36 +193,99 @@ export default function App() {
 
   const handleDeleteRecord = (id: string) => {
     if (window.confirm('¿Estás seguro de eliminar este registro?')) {
-      setRecords((prev) => prev.filter((r) => r.id !== id));
-      showToast('Registro eliminado', 'info');
+      setRecords((prev) => {
+        const next = prev.filter((r) => r.id !== id);
+        try {
+          localStorage.setItem('control_asistencia_grants_records_v4', JSON.stringify(next));
+        } catch (e) {}
+        fetch('/api/records', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ records: next }),
+        }).catch((e) => console.error(e));
+        return next;
+      });
+      showToast('Registro eliminado de la base de datos', 'info');
     }
   };
 
   const handleSaveRecord = (savedRecord: VehicleRecord, keepOpenForNext?: boolean) => {
+    // 1. Automatically switch to the week of the record so it is immediately visible!
+    setSelectedWeek(savedRecord.semana);
+
+    // 2. Clear filters that could hide the new record
+    if (selectedDriver !== 'all' && selectedDriver !== savedRecord.nombre) {
+      setSelectedDriver('all');
+    }
+    if (statusFilter !== 'all') {
+      setStatusFilter('all');
+    }
+
+    // 3. Update records state and write to both localStorage and server
     setRecords((prev) => {
-      const index = prev.findIndex((r) => r.id === savedRecord.id);
-      if (index >= 0) {
-        const next = [...prev];
-        next[index] = savedRecord;
-        return next;
-      } else {
-        return [savedRecord, ...prev];
+      let next = [...prev];
+
+      // If saving real hours on a date that previously had a placeholder "NO HAY DATOS", remove that placeholder
+      const datePrefix = savedRecord.fechaIngreso.split(' ')[0];
+      if (
+        savedRecord.horas > 0 ||
+        (savedRecord.observaciones && !savedRecord.observaciones.includes('NO HAY DATOS'))
+      ) {
+        const placeholderIdx = next.findIndex(
+          (r) =>
+            r.id !== savedRecord.id &&
+            r.nombre === savedRecord.nombre &&
+            r.fechaIngreso.startsWith(datePrefix) &&
+            r.horas === 0 &&
+            r.observaciones === 'NO HAY DATOS'
+        );
+        if (placeholderIdx >= 0) {
+          next.splice(placeholderIdx, 1);
+        }
       }
+
+      const index = next.findIndex((r) => r.id === savedRecord.id);
+      if (index >= 0) {
+        next[index] = savedRecord;
+      } else {
+        next.push(savedRecord);
+      }
+
+      // Strictly sort by week descending, employee, and chronological date/time
+      next = sortAttendanceRecords(next);
+
+      // Instant localStorage sync
+      try {
+        localStorage.setItem('control_asistencia_grants_records_v4', JSON.stringify(next));
+      } catch (e) {}
+
+      // Instant server sync
+      fetch('/api/records', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ records: next }),
+      }).catch((e) => console.error('Failed to sync to server database:', e));
+
+      return next;
     });
 
     if (keepOpenForNext) {
-      showToast('Entrada guardada. Puedes ingresar la siguiente línea para este mismo día.', 'success');
+      showToast('Entrada guardada en la base de datos. Puedes registrar la siguiente línea.', 'success');
     } else {
-      showToast('Registro guardado correctamente', 'success');
+      showToast(`Registro guardado exitosamente (Semana ${savedRecord.semana} - ${savedRecord.nombre})`, 'success');
     }
   };
 
   const handleAddRecordsFromOCR = (newRecords: VehicleRecord[], replaceAll: boolean) => {
     if (replaceAll) {
-      setRecords(newRecords);
+      const sorted = sortAttendanceRecords(newRecords);
+      setRecords(sorted);
       showToast(`Excel actualizado con ${newRecords.length} registros extraídos por IA`, 'success');
     } else {
-      setRecords((prev) => [...prev, ...newRecords]);
+      setRecords((prev) => {
+        const merged = sortAttendanceRecords([...prev, ...newRecords]);
+        return merged;
+      });
       showToast(`Se agregaron ${newRecords.length} nuevos registros al Excel`, 'success');
     }
   };
@@ -233,7 +309,7 @@ export default function App() {
     const dateMatchPrefix = `${d}/${m}/${y}`;
 
     setRecords((prev) => {
-      const updated = [...prev];
+      let updated = [...prev];
 
       employees.forEach((emp) => {
         // Look for existing record for this employee on this exact date
@@ -264,9 +340,21 @@ export default function App() {
             horas: 0,
             observaciones: observacion,
           };
-          updated.unshift(newRecord);
+          updated.push(newRecord);
         }
       });
+
+      updated = sortAttendanceRecords(updated);
+
+      try {
+        localStorage.setItem('control_asistencia_grants_records_v4', JSON.stringify(updated));
+      } catch (e) {}
+
+      fetch('/api/records', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ records: updated }),
+      }).catch((e) => console.error(e));
 
       return updated;
     });

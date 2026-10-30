@@ -172,7 +172,10 @@ export const RecordModal: React.FC<RecordModalProps> = ({
     const outDateTimeStr = `${d}/${m}/${y} ${exitTime}`;
 
     return {
-      id: initialRecord?.id || `rec-${Date.now()}-${Math.random().toString(36).substring(2, 6)}`,
+      id:
+        mode === 'add' || !initialRecord?.id
+          ? `rec-${Date.now()}-${Math.random().toString(36).substring(2, 6)}`
+          : initialRecord.id,
       semana: calculatedWeek,
       dia: calculatedDay,
       predio,

@@ -1,6 +1,6 @@
 import React from 'react';
 import { VehicleRecord, DriverName } from '../types/vehicle';
-import { formatDecimalHours } from '../utils/dateUtils';
+import { formatDecimalHours, sortAttendanceRecords } from '../utils/dateUtils';
 import {
   Edit2,
   Trash2,
@@ -55,9 +55,9 @@ export const ExcelTable: React.FC<ExcelTableProps> = ({
 }) => {
   const [selectedPredio, setSelectedPredio] = React.useState<string>('all');
 
-  // Apply filtering and sort de mayor a menor por semana
-  const filtered = records
-    .filter((rec) => {
+  // Apply filtering and strictly sort chronologically
+  const filtered = sortAttendanceRecords(
+    records.filter((rec) => {
       // Week filter
       if (selectedWeek !== 'all' && rec.semana !== selectedWeek) return false;
 
@@ -93,13 +93,7 @@ export const ExcelTable: React.FC<ExcelTableProps> = ({
 
       return true;
     })
-    .sort((a, b) => {
-      // Acomodar las semanas de mayor a menor (44, 43, 42, ...)
-      if (b.semana !== a.semana) {
-        return b.semana - a.semana;
-      }
-      return 0;
-    });
+  );
 
   return (
     <div className="bg-white rounded-xl border border-slate-200 shadow-sm overflow-hidden flex flex-col">
